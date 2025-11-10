@@ -8,17 +8,17 @@ design:
   spacing: "6rem"
 
 sections:
-  # === 1. HERO BLOCK: School Name, Dates, Host (FIXED LINE SPACING) ===
+  # === 1. HERO BLOCK: School Name, Dates, Host (FIXED LINE SPACING with <br>) ===
   - block: hero
     id: top
     content:
       title: ACM India Winter School on Edge AI
       text: |
-        **28 DECEMBER 2025 to 4 JANUARY 2026**
+        **28 DECEMBER 2025 to 4 JANUARY 2026**<br><br>
 
-        **Host:** Indian Institute of Science, Bengaluru
+        **Host:** Indian Institute of Science, Bengaluru<br><br>
 
-        **Venue:** RBCCPS, Indian Institute of Science
+        **Venue:** RBCCPS, Indian Institute of Science<br><br>
 
         **Coordinators:** Pandarasamy Arjunan & Yogesh Simmhan
         
@@ -42,7 +42,7 @@ sections:
           position: center
           parallax: false
 
-  # === 2. ABOUT BLOCK: Description, Background, Software (FIXED ALIGNMENT AND SPREAD) ===
+  # === 2. ABOUT BLOCK: Description, Background, Software (FIXED ALIGNMENT) ===
   - block: markdown
     id: about
     content:
@@ -61,11 +61,11 @@ sections:
         * **MicroPython**
         
     design:
-      columns: 1 
-      # Set padding/margin to 0 to maximize horizontal stretch, relying on columns: 1
+      columns: 1 # Forces content to use the full width
+      # Use horizontal padding to ensure content stretches but isn't centered by the theme's defaults
       spacing:
-        padding: [0, 0, 0, 0]
-        
+        padding: ["3rem", "5rem", "3rem", "5rem"] 
+
   # === 3. TOPICS BLOCK (Visually interactive with icons) ===
   - block: features
     id: topics
@@ -100,7 +100,7 @@ sections:
       css_class: "bg-gray-100 dark:bg-gray-900"
       columns: 3
 
-  # === 4. SPEAKERS BLOCK (Visual Fix: Corrected Paths and Layout) ===
+  # === 4. SPEAKERS BLOCK (CRITICAL FIX: Image Paths set to Hugo standard) ===
   - block: markdown
     id: speakers
     content:

@@ -36,11 +36,7 @@ header:
     logo:
       text: 'Winter School on Edge AI ' # Main text logo
       # Logo filename in `assets/media/` folder
-      filename: '' # Remove default logo or add one like 'iisc-logo.svg'
-    button:
-      enable: true
-      text: 'Apply Now' # Action button
-      url: '#contact' # Link to the Contact section (or an external application link)
+      filename: '/assets/media/IISC.svg' # Remove default logo or add one like 'iisc-logo.svg'
     show_search: true
     show_theme_chooser: true
 

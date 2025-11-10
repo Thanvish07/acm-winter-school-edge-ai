@@ -3,6 +3,6 @@ title: Ajay Pratap
 role: Invited Speaker
 organizations:
   - name: IIT Bhuvaneswar
-    url: ''
+    url: 'https://iitbhu.ac.in/dept/cse/people/ajaycse'
 weight: 3
 ---

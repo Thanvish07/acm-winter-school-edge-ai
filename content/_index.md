@@ -5,7 +5,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "6rem"
+  spacing: "9rem"
 
 sections:
   # === 1. HERO BLOCK: School Name, Dates, Host ===
@@ -15,15 +15,17 @@ sections:
       title: ACM India Winter School on Edge AI
       text: |
         **28 DECEMBER 2025 to 4 JANUARY 2026**
+  Location: ; RBCCPS, Indian Institeu of SCience
+    
+    Coorditors:
+    Pandarasamy Arjunan Local & Academic Coordinator Email: samy@iisc.ac.in
+    Yogesh Simmhan Local & Academic Coordinator Email: simmhan@iisc.ac.in
+
+        
+    
         
         Hosted by **Indian Institute of Science, Bengaluru**
-      primary_action:
-        text: Apply Now!
-        url: '#contact'
-        icon: calendar-days
-      secondary_action:
-        text: View Topics
-        url: '#topics'
+
     design:
       css_class: "dark"
       background:

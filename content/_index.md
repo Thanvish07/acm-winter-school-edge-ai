@@ -12,13 +12,13 @@ sections:
   - block: hero
     id: top
     content:
-      title: ACM India Winter School on Edge AI
+      title: **ACM India Winter School on Edge AI**
       text: |
         **28 DECEMBER 2025 to 4 JANUARY 2026**<br><br>
 
-        **Host:** Indian Institute of Science, Bengaluru<br><br>
+        **Host:** RBCCPS, Indian Institute of Science, Bengaluru<br><br>
 
-        **Venue:** RBCCPS, Indian Institute of Science<br><br>
+        **Venue:** IDR Building, Indian Institute of Science<br><br>
 
         **Coordinators:** Pandarasamy Arjunan & Yogesh Simmhan
         
@@ -49,22 +49,12 @@ sections:
       title: About the School
       text: |
         The **ACM India Winter School on Edge AI** will provide an in-depth overview of software platforms, hardware systems, and AI models and algorithms for efficient deployment on accelerated and classic edge devices. The program will cover topics such as edge computing architectures and accelerators, co-optimization techniques of edge systems and ML models for performance, power and accuracy, federated learning frameworks, and the deployment of AI, generative AI/LLM models and AI agents at the edge for practical and IoT applications such as smart mobility and smart agriculture. Through lectures, hands-on sessions, and expert talks, participants will gain practical skills to design, implement, and optimize intelligent edge systems for diverse real-world applications.
-
-        ### Recommended Background / Prior Courses
-        * Introductory course on Data science, Machine learning, or AI
-        * Basics of Computer Systems
-        * Embedded systems and IoT programming
-        
-        ### Specific Software to be Used
-        * **Python 3** (scikit-learn, TensorFlow, Keras, LiteRT, PyTorch Edge, ExecuTorch)
-        * **Jetpack SDK**
-        * **MicroPython**
         
     design:
       columns: 1 # Forces content to use the full width
       # Use horizontal padding to ensure content stretches but isn't centered by the theme's defaults
       spacing:
-        padding: ["3rem", "5rem", "3rem", "5rem"] 
+        padding: ["6rem", "6rem", "6rem", "6rem"] 
 
   # === 3. TOPICS BLOCK (Visually interactive with icons) ===
   - block: features

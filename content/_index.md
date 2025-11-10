@@ -36,7 +36,7 @@ sections:
       background:
         color: "navy"
         image:
-          filename: bg-triangles.svg
+          filename: 'bg-triangles.svg'
           filters:
             brightness: 0.5
           size: cover
@@ -103,44 +103,44 @@ sections:
       items:
         - name: Gayathri Ananthanarayanan
           role: IIT Dharwad
-          image: speaker_gayathri.jpg
-          url: https://www.iitdh.ac.in/user-profile/gayathri-ananthanarayanan
+          image: 'speaker_gayathri.jpg'
+          url: 'https://www.iitdh.ac.in/user-profile/gayathri-ananthanarayanan'
         - name: Manik Gupta
           role: BITS Pilani
-          image: speaker_manik.jpg
-          url: https://www.bits-pilani.ac.in/hyderabad/manik-gupta
+          image: 'speaker_manik.jpg'
+          url: 'https://www.bits-pilani.ac.in/hyderabad/manik-gupta'
         - name: Ajay Pratap
           role: IIT Bhuvaneswar
-          image: speaker_ajay.jpg
-          url: https://iitbhu.ac.in/dept/cse/people/ajaycse
+          image: 'speaker_ajay.jpg'
+          url: 'https://iitbhu.ac.in/dept/cse/people/ajaycse'
         - name: Pandarasamy Arjunan
           role: IISc
-          image: speaker_pandarasamy.jpg
-          url: https://www.samy101.com/
+          image: 'speaker_pandarasamy.jpg'
+          url: 'https://www.samy101.com/'
         - name: Yogesh Simmhan
           role: IISc
-          image: speaker_yogesh.jpg
-          url: https://cds.iisc.ac.in/faculty/simmhan/
+          image: 'speaker_yogesh.jpg'
+          url: 'https://cds.iisc.ac.in/faculty/simmhan/'
         - name: Sumit Mandal
           role: IISc
-          image: speaker_sumit.jpg
-          url: https://www.csa.iisc.ac.in/~skmandal
+          image: 'speaker_sumit.jpg'
+          url: 'https://www.csa.iisc.ac.in/~skmandal'
         - name: Punit Rathore
           role: IISc
-          image: speaker_punit.jpg
-          url: https://www.punitrathore.com/home
+          image: 'speaker_punit.jpg'
+          url: 'https://www.punitrathore.com/home'
         - name: Prasant Misra
           role: TCS Research
-          image: speaker_prasant.jpg
-          url: https://sites.google.com/site/prasantmisra/
+          image: 'speaker_prasant.jpg'
+          url: 'https://sites.google.com/site/prasantmisra/'
         - name: Varun Ojha
           role: New Castle University, UK
-          image: speaker_varun.jpg
-          url: https://ojhavk.github.io/
+          image: 'speaker_varun.jpg'
+          url: 'https://ojhavk.github.io/'
         - name: Sajal Das
           role: Missouri Univ. of Sci. & Tech, USA
-          image: speaker_sajal.jpg
-          url: https://isc.mst.edu/people/ri/sdas/
+          image: 'speaker_sajal.jpg'
+          url: 'https://isc.mst.edu/people/ri/sdas/'
 
     design:
       css_class: ""

@@ -109,40 +109,80 @@ sections:
       css_class: "bg-gray-100 dark:bg-gray-900"
       columns: 3
 
-# === 4. SPEAKERS BLOCK (STABLE MARKDOWN LIST with External Images) ===
-  - block: markdown
+# === 4. SPEAKERS BLOCK (Rendered as FEATURES for stability) ===
+  - block: features
     id: speakers
     content:
       title: 🎤 Invited Speakers
+      # The description text goes here
       text: |
-        *Instructions: Please replace 'EXTERNAL_URL_X' with the public link to the speaker's photo.*
-        
-        ### Group 1
-        
-        | Speaker | Affiliation | Profile |
-        | :--- | :--- | :--- |
-        | ![Gayathri Ananthanarayanan](EXTERNAL_URL_1) **[G. Ananthanarayanan](https://www.iitdh.ac.in/user-profile/gayathri-ananthanarayanan)** | IIT Dharwad | [View Profile] |
-        | ![Manik Gupta](EXTERNAL_URL_2) **[Manik Gupta](https://www.bits-pilani.ac.in/hyderabad/manik-gupta)** | BITS Pilani | [View Profile] |
-        | ![Ajay Pratap](EXTERNAL_URL_3) **[Ajay Pratap](https://iitbhu.ac.in/dept/cse/people/ajaycse)** | IIT Bhuvaneswar | [View Profile] |
-        | ![Pandarasamy Arjunan](EXTERNAL_URL_4) **[P. Arjunan](https://www.samy101.com/)** | IISc | [View Profile] |
-        | ![Yogesh Simmhan](EXTERNAL_URL_5) **[Yogesh Simmhan](https://cds.iisc.ac.in/faculty/simmhan/)** | IISc | [View Profile] |
+        Click on any speaker card to view their institutional profile.
+      items:
+        - name: Gayathri Ananthanarayanan
+          description: "[IIT Dharwad](https://www.iitdh.ac.in/user-profile/gayathri-ananthanarayanan)"
+          icon: user
+          link: https://www.iitdh.ac.in/user-profile/gayathri-ananthanarayanan
+          image: speaker_gayathri.jpg # Hugo Blox features block often uses `image` for card media
 
-        ### Group 2
-        
-        | Speaker | Affiliation | Profile |
-        | :--- | :--- | :--- |
-        | ![Sumit Mandal](EXTERNAL_URL_6) **[Sumit Mandal](https://www.csa.iisc.ac.in/~skmandal)** | IISc | [View Profile] |
-        | ![Punit Rathore](EXTERNAL_URL_7) **[Punit Rathore](https://www.punitrathore.com/home)** | IISc | [View Profile] |
-        | ![Prasant Misra](EXTERNAL_URL_8) **[Prasant Misra](https://sites.google.com/site/prasantmisra/)** | TCS Research (Tutorial) | [View Profile] |
-        | ![Varun Ojha](EXTERNAL_URL_9) **[Varun Ojha](https://ojhavk.github.io/)** | New Castle University, UK | [View Profile] |
-        | ![Sajal Das](EXTERNAL_URL_10) **[Sajal Das](https://isc.mst.edu/people/ri/sdas/)** | Missouri Univ. of Sci. & Tech, USA | [View Profile] |
+        - name: Manik Gupta
+          description: "[BITS Pilani](https://www.bits-pilani.ac.in/hyderabad/manik-gupta)"
+          icon: user
+          link: https://www.bits-pilani.ac.in/hyderabad/manik-gupta
+          image: speaker_manik.jpg
 
-        ---
-        
-        *Additional speakers being invited from Industries.*
+        - name: Ajay Pratap
+          description: "[IIT Bhuvaneswar](https://iitbhu.ac.in/dept/cse/people/ajaycse)"
+          icon: user
+          link: https://iitbhu.ac.in/dept/cse/people/ajaycse
+          image: speaker_ajay.jpg
 
+        - name: Pandarasamy Arjunan
+          description: "[IISc](https://www.samy101.com/)"
+          icon: user
+          link: https://www.samy101.com/
+          image: speaker_pandarasamy.jpg
+
+        - name: Yogesh Simmhan
+          description: "[IISc](https://cds.iisc.ac.in/faculty/simmhan/)"
+          icon: user
+          link: https://cds.iisc.ac.in/faculty/simmhan/
+          image: speaker_yogesh.jpg
+
+        - name: Sumit Mandal
+          description: "[IISc](https://www.csa.iisc.ac.in/~skmandal)"
+          icon: user
+          link: https://www.csa.iisc.ac.in/~skmandal
+          image: speaker_sumit.jpg
+
+        - name: Punit Rathore
+          description: "[IISc](https://www.punitrathore.com/home)"
+          icon: user
+          link: https://www.punitrathore.com/home
+          image: speaker_punit.jpg
+
+        - name: Prasant Misra
+          description: "[TCS Research (Tutorial)](https://sites.google.com/site/prasantmisra/)"
+          icon: user
+          link: https://sites.google.com/site/prasantmisra/
+          image: speaker_prasant.jpg
+
+        - name: Varun Ojha
+          description: "[New Castle University, UK](https://ojhavk.github.io/)"
+          icon: user
+          link: https://ojhavk.github.io/
+          image: speaker_varun.jpg
+
+        - name: Sajal Das
+          description: "[Missouri Univ. of Sci. & Tech, USA](https://isc.mst.edu/people/ri/sdas/)"
+          icon: user
+          link: https://isc.mst.edu/people/ri/sdas/
+          image: speaker_sajal.jpg
+          
     design:
-      columns: 1
+      # This is guaranteed to create 3 columns, like your Topics section
+      columns: 3 
+      view: card # Explicitly use the 'card' view for better presentation
+      css_class: "bg-white"
 
   # === 5. AGENDA (NEW SECTION) ===
   - block: markdown

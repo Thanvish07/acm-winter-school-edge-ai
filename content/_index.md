@@ -29,7 +29,7 @@ sections:
       background:
         color: "navy"
         image:
-          filename: bg-triangles.svg # Keep the default background image or replace it
+          filename: bg-triangles.svg
           filters:
             brightness: 0.5
           size: cover
@@ -37,7 +37,7 @@ sections:
           parallax: false
 
   # === 2. ABOUT BLOCK: Description, Background, Software ===
-  - block: markdown # <-- FIX: Replaced 'blank' block with 'markdown'
+  - block: markdown
     id: about
     content:
       title: About the School
@@ -66,34 +66,33 @@ sections:
         The winter school covers foundational and advanced aspects of Edge AI.
       items:
         - name: Foundations of IoT, Accelerated Edge Computing and Edge AI
-          icon: server # Icon fixed
+          icon: server
         - name: Tiny and Embedded Machine Learning
-          icon: computer-desktop # Icon fixed
+          icon: computer-desktop
         - name: Model Optimization and Acceleration for Edge AI
-          icon: arrow-up-circle # Icon fixed
+          icon: arrow-up-circle
         - name: Edge AI Platforms, Frameworks, and Deployment Pipelines
-          icon: code-bracket # Icon fixed
+          icon: code-bracket
         - name: Federated Learning and Distributed Training for Edge Devices
-          icon: users # Icon fixed
+          icon: users
         - name: Neuromorphic Computing and Brain-Inspired Architectures
-          icon: cube # Icon fixed
+          icon: cube
         - name: Generative AI and LLM at the Edge
-          icon: sparkles # Icon fixed
+          icon: sparkles
         - name: Agentic AI on the Edge
-          icon: cog # Icon fixed
+          icon: cog
         - name: Security, Privacy, and Responsible AI in Edge Systems
-          icon: lock-closed # Icon fixed
+          icon: lock-closed
         - name: Benchmarking, Profiling, and Performance Evaluation of Edge AI Systems
           icon: chart-bar
         - name: Edge AI for Drones/UAVs, IoT, Smart Cities, and Industrial Applications
-          icon: globe-alt # Icon fixed
+          icon: globe-alt
     design:
-      # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-      columns: 3 # Display topics in 3 columns
+      columns: 3
 
-  # === 4. SPEAKERS BLOCK ===
-  - block: markdown # <-- FIX: Replaced 'people' block with 'markdown'
+  # === 4. SPEAKERS BLOCK (Manual Markdown List) ===
+  - block: markdown
     id: speakers
     content:
       title: Invited Speakers
@@ -113,8 +112,8 @@ sections:
     design:
       view: compact
 
-  # === 5. COORDINATORS BLOCK ===
-  - block: markdown # <-- FIX: Replaced 'people' block with 'markdown'
+  # === 5. COORDINATORS BLOCK (Manual Markdown List) ===
+  - block: markdown
     id: coordinators
     content:
       title: Coordinators
@@ -128,26 +127,20 @@ sections:
       view: compact
       css_class: "bg-gray-100 dark:bg-gray-900"
 
-  # === 6. VENUE/LOCATION BLOCK ===
-  - block: contact
+  # === 6. VENUE/LOCATION BLOCK (Manual Markdown) ===
+  - block: markdown # <-- FIX: Replaced 'contact' block with 'markdown'
     id: venue
     content:
       title: Venue & Dates
-      address:
-        street: CV Raman Avenue
-        city: Bangalore
-        postcode: 560012
-        country: India
-        country_code: IN
       text: |
         The Winter School will be held at:
         **Indian Institute of Science (IISc)**, Bengaluru
         
-        Dates: **28 DECEMBER 2025 to 4 JANUARY 2026**
-      map:
-        provider: 'leaflet'
-        api_key: ''
-        zoom: 15
+        **Address:** CV Raman Avenue, Bangalore, 560012, India
+        
+        **Dates:** 28 DECEMBER 2025 to 4 JANUARY 2026
+        
+        [Link to IISc Map] (You can insert an external Google Maps link here)
     design:
       background:
         image: 
@@ -155,14 +148,18 @@ sections:
           size: cover
           position: center
 
-  # === 7. CONTACT BLOCK ===
-  - block: contact
+  # === 7. CONTACT BLOCK (Manual Markdown) ===
+  - block: markdown # <-- FIX: Replaced 'contact' block with 'markdown'
     id: contact
     content:
-      title: Contact Us
-      email: samy@iisc.ac.in # Clean email
+      title: Contact Us / Application
       text: |
         Please direct all academic and logistical inquiries to the Coordinators listed below.
+        
+        ### Application / Registration Link:
+        [APPLY HERE] (Insert your application form URL)
+        
+        ---
         
         **Pandarasamy Arjunan (Local & Academic Coordinator)**
         Email: samy@iisc.ac.in

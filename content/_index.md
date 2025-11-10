@@ -37,7 +37,7 @@ sections:
           parallax: false
 
   # === 2. ABOUT BLOCK: Description, Background, Software ===
-  - block: blank
+  - block: markdown # <-- FIXED: Changed from 'blank' to 'markdown'
     id: about
     content:
       title: About the School
@@ -155,7 +155,7 @@ sections:
     id: contact
     content:
       title: Contact Us
-      email: 'samy@iisc.ac.in' # Use one primary contact email
+      email: samy@iisc.ac.in # FIXED: Removed quotes/apostrophes
       # Contact form is optional - use external form link if needed
       # form:
       #   provider: netlify
@@ -169,15 +169,16 @@ sections:
         Please direct all academic and logistical inquiries to the Coordinators listed below.
         
         **Pandarasamy Arjunan (Local & Academic Coordinator)**
-        'Email: samy@iisc.ac.in'
+        Email: samy@iisc.ac.in
         
         **Yogesh Simmhan (Local & Academic Coordinator)**
-        'Email: simmhan@iisc.ac.in'
+        Email: simmhan@iisc.ac.in
     design:
       css_class: "bg-gray-100 dark:bg-gray-900"
 
   # === 8. Simple Footer CTA (Optional) ===
   - block: cta-card
+    id: application
     content:
       title: Ready to join the future of Edge AI?
       text: Apply now for the ACM India Winter School 2025.

@@ -3,6 +3,6 @@ title: Yogesh Simmhan
 role: Invited Speaker
 organizations:
   - name: Indian Institute of Science (IISc)
-    url: https://www.iisc.ac.in/
+    url: 'https://cds.iisc.ac.in/faculty/simmhan/'
 weight: 5
 ---

@@ -105,70 +105,70 @@ sections:
 
         <div style="width: 30%; min-width: 250px; margin: 10px;">
           <a href="URL_TO_PROFILE_1">
-            <img src="/assets/media/speaker_gayathri.jpg" alt="Photo of Gayathri Ananthanarayanan" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
+            <img src="speaker_gayathri.jpg" alt="Photo of Gayathri Ananthanarayanan" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
           </a>
           <p><strong>Gayathri Ananthanarayanan</strong><br/>IIT Dharwad</p>
         </div>
 
         <div style="width: 30%; min-width: 250px; margin: 10px;">
           <a href="URL_TO_PROFILE_2">
-            <img src="/assets/media/speaker_manik.jpg" alt="Photo of Manik Gupta" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
+            <img src="speaker_manik.jpg" alt="Photo of Manik Gupta" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
           </a>
           <p><strong>Manik Gupta</strong><br/>BITS Pilani</p>
         </div>
         
         <div style="width: 30%; min-width: 250px; margin: 10px;">
           <a href="URL_TO_PROFILE_3">
-            <img src="/assets/media/speaker_ajay.jpg" alt="Photo of Ajay Pratap" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
+            <img src="speaker_ajay.jpg" alt="Photo of Ajay Pratap" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
           </a>
           <p><strong>Ajay Pratap</strong><br/>IIT Bhuvaneswar</p>
         </div>
 
         <div style="width: 30%; min-width: 250px; margin: 10px;">
           <a href="URL_TO_PROFILE_4">
-            <img src="/assets/media/speaker_pandarasamy.jpg" alt="Photo of Pandarasamy Arjunan" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
+            <img src="speaker_pandarasamy.jpg" alt="Photo of Pandarasamy Arjunan" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
           </a>
           <p><strong>Pandarasamy Arjunan</strong><br/>IISc</p>
         </div>
 
         <div style="width: 30%; min-width: 250px; margin: 10px;">
           <a href="URL_TO_PROFILE_5">
-            <img src="/assets/media/speaker_yogesh.jpg" alt="Photo of Yogesh Simmhan" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
+            <img src="speaker_yogesh.jpg" alt="Photo of Yogesh Simmhan" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
           </a>
           <p><strong>Yogesh Simmhan</strong><br/>IISc</p>
         </div>
 
         <div style="width: 30%; min-width: 250px; margin: 10px;">
           <a href="URL_TO_PROFILE_6">
-            <img src="/assets/media/speaker_sumit.jpg" alt="Photo of Sumit Mandal" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
+            <img src="speaker_sumit.jpg" alt="Photo of Sumit Mandal" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
           </a>
           <p><strong>Sumit Mandal</strong><br/>IISc</p>
         </div>
 
         <div style="width: 30%; min-width: 250px; margin: 10px;">
           <a href="URL_TO_PROFILE_7">
-            <img src="/assets/media/speaker_punit.jpg" alt="Photo of Punit Rathore" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
+            <img src="speaker_punit.jpg" alt="Photo of Punit Rathore" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
           </a>
           <p><strong>Punit Rathore</strong><br/>IISc</p>
         </div>
         
         <div style="width: 30%; min-width: 250px; margin: 10px;">
           <a href="URL_TO_PROFILE_8">
-            <img src="/assets/media/speaker_prasant.jpg" alt="Photo of Prasant Misra" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
+            <img src="speaker_prasant.jpg" alt="Photo of Prasant Misra" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
           </a>
           <p><strong>Prasant Misra</strong><br/>TCS Research (Tutorial)</p>
         </div>
 
         <div style="width: 30%; min-width: 250px; margin: 10px;">
           <a href="URL_TO_PROFILE_9">
-            <img src="/assets/media/speaker_varun.jpg" alt="Photo of Varun Ojha" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
+            <img src="speaker_varun.jpg" alt="Photo of Varun Ojha" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
           </a>
           <p><strong>Varun Ojha</strong><br/>New Castle University, UK</p>
         </div>
 
         <div style="width: 30%; min-width: 250px; margin: 10px;">
           <a href="URL_TO_PROFILE_10">
-            <img src="/assets/media/speaker_sajal.jpg" alt="Photo of Sajal Das" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
+            <img src="speaker_sajal.jpg" alt="Photo of Sajal Das" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover;">
           </a>
           <p><strong>Sajal Das</strong><br/>Missouri Univ. of Sci. & Tech, USA</p>
         </div>

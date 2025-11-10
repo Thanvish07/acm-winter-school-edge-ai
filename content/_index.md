@@ -8,7 +8,7 @@ design:
   spacing: "6rem"
 
 sections:
-  # === 1. HERO BLOCK: Title, Dates, Host (FIXED LINE SPACING and SHORTENED TITLE) ===
+  # === 1. HERO BLOCK: Title, Dates, Host ===
   - block: hero
     id: top
     content:
@@ -44,7 +44,7 @@ sections:
           parallax: false
 
   ---
-  # === 2. ABOUT BLOCK: Description, Background (NEW DISTINCT COLOR) ===
+  # === 2. ABOUT BLOCK: Description, Background (Distinct Color) ===
   - block: markdown
     id: about
     content:
@@ -58,7 +58,7 @@ sections:
         color: white # Explicitly set for distinction
 
   ---
-  # === 3. TOPICS BLOCK (Visually interactive with icons - NEW DISTINCT COLOR) ===
+  # === 3. TOPICS BLOCK (Visually interactive with icons - Distinct Color) ===
   - block: features
     id: topics
     content:
@@ -94,20 +94,17 @@ sections:
       columns: 3
 
   ---
-  # === 4. SPEAKERS BLOCK (CRITICAL FIX: Changed to 'people' block for proper layout) ===
+  # === 4. SPEAKERS BLOCK (Using 'people' block for 3-column layout) ===
   - block: people
     id: speakers
     content:
       title: 🎤 Invited Speakers
       text: |
         *Additional speakers being invited from Industries.*
-      # **CRITICAL CHANGE:** Use the `people` block and specify the folder/items
-      # The speaker data must be created as individual markdown files (e.g., in `content/authors/`)
-      # For a quick fix, you can use the `items` property of the `people` block
       items:
         - name: Gayathri Ananthanarayanan
           role: IIT Dharwad
-          image: speaker_gayathri.jpg # Assumes this is in the correct static/media/ folder
+          image: speaker_gayathri.jpg
           url: https://www.iitdh.ac.in/user-profile/gayathri-ananthanarayanan
         - name: Manik Gupta
           role: BITS Pilani
@@ -151,13 +148,10 @@ sections:
       css_class: ""
       show_role: true
       show_social: false
-      # This layout option is what correctly forces the 3-column grid
-      # and ensures the images/text display consistently.
-      # The default template should handle the image sizing/cropping properly.
       columns: 3
 
   ---
-  # === 5. AGENDA (NEW SECTION - NEW DISTINCT COLOR and TABLE) ===
+  # === 5. AGENDA (Distinct Color and Table) ===
   - block: markdown
     id: agenda
     content:
@@ -171,7 +165,7 @@ sections:
         | Day 1 (Dec 28) | 10:45 - 12:30 | Foundations of Edge AI | Speaker 1 |
         | Day 8 (Jan 4) | 14:00 - 16:00 | Hands-on Lab: LLMs on Edge | Team TBD |
         | Day 8 (Jan 4) | 16:00 - 17:00 | Closing Ceremony | Coordinator Team |
-        
+
         *Note: This is a placeholder agenda. The full detailed agenda will be updated soon.*
 
     design:

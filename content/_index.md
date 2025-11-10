@@ -12,7 +12,7 @@ sections:
   - block: hero
     id: top
     content:
-      title: **ACM India Winter School on Edge AI**
+      title: ACM India Winter School on Edge AI
       text: |
         **28 DECEMBER 2025 to 4 JANUARY 2026**<br><br>
 
@@ -31,6 +31,7 @@ sections:
         url: 'URL_FOR_PROGRAM_DETAILS'
         icon: calendar
     design:
+      columns: 1
       css_class: "dark"
       background:
         color: "navy"

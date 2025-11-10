@@ -184,7 +184,7 @@ sections:
         *Additional speakers being invited from Industries.*
         
     design:
-      view: compact
+      view: card
       columns: 3
 
   # === 5. AGENDA (NEW SECTION) ===

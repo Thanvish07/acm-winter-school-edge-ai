@@ -171,3 +171,5 @@ sections:
       background:
         color: '#f0fff0'
 ---
+
+Assuming the environment issue is resolved, what part of the page content would you like to refine next?

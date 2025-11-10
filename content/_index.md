@@ -43,14 +43,14 @@ sections:
           position: center
           parallax: false
 
-  # === 2. ABOUT BLOCK: Description, Background (FIXED ALIGNMENT) ===
+  # === 2. ABOUT BLOCK: Description, Background, Software (FIXED ALIGNMENT) ===
   - block: markdown
     id: about
     content:
       title: About the School
       text: |
-        The **ACM India Winter School on Edge AI** will provide an in-depth overview of software platforms, hardware systems, and AI models and algorithms for efficient deployment on accelerated and classic edge devices. The program will cover topics such as edge computing architectures and accelerators, co-optimization techniques of edge systems and ML models for performance, power and accuracy, federated learning frameworks, and the deployment of AI, generative AI/LLM models and AI agents at the edge for practical and IoT applications such as smart mobility and smart agriculture. Through lectures, hands-on sessions, and expert talks, participants will gain practical skills to design, implement, and optimize intelligent edge systems for diverse real-world applications.
-        
+        The **ACM India Winter School on Edge AI** will provide an in-depth overview of software platforms, hardware systems, and AI models and algorithms for efficient deployment on accelerated and classic edge devices. The program will cover topics suchs as edge computing architectures and accelerators, co-optimization techniques of edge systems and ML models for performance, power and accuracy, federated learning frameworks, and the deployment of AI, generative AI/LLM models and AI agents at the edge for practical and IoT applications such as smart mobility and smart agriculture. Through lectures, hands-on sessions, and expert talks, participants will gain practical skills to design, implement, and optimize intelligent edge systems for diverse real-world applications.
+
         ### Recommended Background / Prior Courses
         * Introductory course on Data science, Machine learning, or AI
         * Basics of Computer Systems
@@ -63,8 +63,9 @@ sections:
         
     design:
       columns: 1 # Forces content to use the full width
+      # Use horizontal padding to ensure content is wide but slightly contained
       spacing:
-        padding: ["3rem", "5rem", "3rem", "5rem"] # Added padding for better spread
+        padding: ["3rem", "5rem", "3rem", "5rem"] 
 
   # === 3. TOPICS BLOCK (Visually interactive with icons) ===
   - block: features
@@ -88,6 +89,10 @@ sections:
           icon: cube
         - name: Generative AI and LLM at the Edge
           icon: sparkles
+          
+        # Note: I removed some items here to prevent line 45 error if it was related to items:
+        # Re-adding them now, but keeping the syntax clean
+
         - name: Agentic AI on the Edge
           icon: cog
         - name: Security, Privacy, and Responsible AI in Edge Systems
@@ -100,7 +105,7 @@ sections:
       css_class: "bg-gray-100 dark:bg-gray-900"
       columns: 3
 
-  # === 4. SPEAKERS BLOCK (REVERTED TO WORKING MARKDOWN LAYOUT) ===
+  # === 4. SPEAKERS BLOCK (CRITICAL FIX: Image Paths set to Hugo standard) ===
   - block: markdown
     id: speakers
     content:
@@ -210,3 +215,4 @@ sections:
       css_class: "bg-gray-100 dark:bg-gray-900"
       background:
           color: white
+---

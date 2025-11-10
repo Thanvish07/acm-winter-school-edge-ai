@@ -34,7 +34,7 @@ header:
     align: 'center'
     fixed_to_top: true
     logo:
-      text: 'Edge AI Winter School' # Main text logo
+      text: 'Winter School on Edge AI ' # Main text logo
       # Logo filename in `assets/media/` folder
       filename: '' # Remove default logo or add one like 'iisc-logo.svg'
     button:

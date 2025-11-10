@@ -37,7 +37,7 @@ sections:
           parallax: false
 
   # === 2. ABOUT BLOCK: Description, Background, Software ===
-  - block: markdown # <-- FIXED: Changed from 'blank' to 'markdown'
+  - block: markdown # <-- FIX: Replaced 'blank' block with 'markdown'
     id: about
     content:
       title: About the School
@@ -62,59 +62,67 @@ sections:
     id: topics
     content:
       title: Key Topics
-      # Remove generic description text
       text: |
         The winter school covers foundational and advanced aspects of Edge AI.
       items:
         - name: Foundations of IoT, Accelerated Edge Computing and Edge AI
-          icon: microchip
+          icon: server # Icon fixed
         - name: Tiny and Embedded Machine Learning
-          icon: cpu
+          icon: computer-desktop # Icon fixed
         - name: Model Optimization and Acceleration for Edge AI
-          icon: rocket
+          icon: arrow-up-circle # Icon fixed
         - name: Edge AI Platforms, Frameworks, and Deployment Pipelines
-          icon: code-fork
+          icon: code-bracket # Icon fixed
         - name: Federated Learning and Distributed Training for Edge Devices
-          icon: users-gear
+          icon: users # Icon fixed
         - name: Neuromorphic Computing and Brain-Inspired Architectures
-          icon: brain
+          icon: cube # Icon fixed
         - name: Generative AI and LLM at the Edge
-          icon: magic-wand
+          icon: sparkles # Icon fixed
         - name: Agentic AI on the Edge
-          icon: robot
+          icon: cog # Icon fixed
         - name: Security, Privacy, and Responsible AI in Edge Systems
-          icon: lock
+          icon: lock-closed # Icon fixed
         - name: Benchmarking, Profiling, and Performance Evaluation of Edge AI Systems
           icon: chart-bar
         - name: Edge AI for Drones/UAVs, IoT, Smart Cities, and Industrial Applications
-          icon: drone
+          icon: globe-alt # Icon fixed
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
       columns: 3 # Display topics in 3 columns
 
   # === 4. SPEAKERS BLOCK ===
-  - block: people
+  - block: markdown # <-- FIX: Replaced 'people' block with 'markdown'
     id: speakers
     content:
       title: Invited Speakers
-      # Display all authors in the 'speaker' folder
-      filters:
-        folders:
-          - speaker
+      text: |
+        **Gayathri Ananthanarayanan** (IIT Dharwad)
+        **Manik Gupta** (BITS Pilani)
+        **Ajay Pratap** (IIT Bhuvaneswar)
+        **Pandarasamy Arjunan** (IISc)
+        **Yogesh Simmhan** (IISc)
+        **Sumit Mandal** (IISc)
+        **Punit Rathore** (IISc)
+        **Prasant Misra** (TCS Research, Bangalore - tutorial)
+        **Varun Ojha** (New Castle University, UK)
+        **Sajal Das** (Missouri University of Science and Technology, USA)
+        
+        *Additional speakers being invited from Industries.*
     design:
-      # Display speakers as a grid of cards (optional setting)
       view: compact
 
   # === 5. COORDINATORS BLOCK ===
-  - block: people
+  - block: markdown # <-- FIX: Replaced 'people' block with 'markdown'
     id: coordinators
     content:
       title: Coordinators
-      # Display all authors in the 'coordinator' folder
-      filters:
-        folders:
-          - coordinator
+      text: |
+        **Local & Academic Coordinators (IISc):**
+        
+        **Pandarasamy Arjunan** (Email: samy@iisc.ac.in)
+        **Yogesh Simmhan** (Email: simmhan@iisc.ac.in)
     design:
       columns: 2
       view: compact
@@ -131,22 +139,19 @@ sections:
         postcode: 560012
         country: India
         country_code: IN
-      # Dates are in the text
       text: |
         The Winter School will be held at:
         **Indian Institute of Science (IISc)**, Bengaluru
         
         Dates: **28 DECEMBER 2025 to 4 JANUARY 2026**
-      # Enable Map View
       map:
         provider: 'leaflet'
         api_key: ''
         zoom: 15
     design:
-      # Use a background image or map to make the section stand out
       background:
         image: 
-          filename: 'map.png' # Placeholder for a map image or use actual map provider
+          filename: 'map.png'
           size: cover
           position: center
 
@@ -155,16 +160,7 @@ sections:
     id: contact
     content:
       title: Contact Us
-      email: samy@iisc.ac.in # FIXED: Removed quotes/apostrophes
-      # Contact form is optional - use external form link if needed
-      # form:
-      #   provider: netlify
-      #   formspree:
-      #     id: ''
-      #   netlify:
-      #     # Enable Netlify form?
-      #     enable: true
-      #     api_token: ''
+      email: samy@iisc.ac.in # Clean email
       text: |
         Please direct all academic and logistical inquiries to the Coordinators listed below.
         

@@ -17,4 +17,4 @@ main:
     weight: 40
   - name: Agenda
     url: /#agenda
-    weight: 40
+    weight: 50

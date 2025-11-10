@@ -109,90 +109,40 @@ sections:
       css_class: "bg-gray-100 dark:bg-gray-900"
       columns: 3
 
-# === 4. SPEAKERS BLOCK (Using NATIVE 'people' block for a clean layout) ===
-  - block: people
+# === 4. SPEAKERS BLOCK (STABLE MARKDOWN LIST with External Images) ===
+  - block: markdown
     id: speakers
     content:
       title: 🎤 Invited Speakers
       text: |
+        *Instructions: Please replace 'EXTERNAL_URL_X' with the public link to the speaker's photo.*
+        
+        ### Group 1
+        
+        | Speaker | Affiliation | Profile |
+        | :--- | :--- | :--- |
+        | ![Gayathri Ananthanarayanan](EXTERNAL_URL_1) **[G. Ananthanarayanan](https://www.iitdh.ac.in/user-profile/gayathri-ananthanarayanan)** | IIT Dharwad | [View Profile] |
+        | ![Manik Gupta](EXTERNAL_URL_2) **[Manik Gupta](https://www.bits-pilani.ac.in/hyderabad/manik-gupta)** | BITS Pilani | [View Profile] |
+        | ![Ajay Pratap](EXTERNAL_URL_3) **[Ajay Pratap](https://iitbhu.ac.in/dept/cse/people/ajaycse)** | IIT Bhuvaneswar | [View Profile] |
+        | ![Pandarasamy Arjunan](EXTERNAL_URL_4) **[P. Arjunan](https://www.samy101.com/)** | IISc | [View Profile] |
+        | ![Yogesh Simmhan](EXTERNAL_URL_5) **[Yogesh Simmhan](https://cds.iisc.ac.in/faculty/simmhan/)** | IISc | [View Profile] |
+
+        ### Group 2
+        
+        | Speaker | Affiliation | Profile |
+        | :--- | :--- | :--- |
+        | ![Sumit Mandal](EXTERNAL_URL_6) **[Sumit Mandal](https://www.csa.iisc.ac.in/~skmandal)** | IISc | [View Profile] |
+        | ![Punit Rathore](EXTERNAL_URL_7) **[Punit Rathore](https://www.punitrathore.com/home)** | IISc | [View Profile] |
+        | ![Prasant Misra](EXTERNAL_URL_8) **[Prasant Misra](https://sites.google.com/site/prasantmisra/)** | TCS Research (Tutorial) | [View Profile] |
+        | ![Varun Ojha](EXTERNAL_URL_9) **[Varun Ojha](https://ojhavk.github.io/)** | New Castle University, UK | [View Profile] |
+        | ![Sajal Das](EXTERNAL_URL_10) **[Sajal Das](https://isc.mst.edu/people/ri/sdas/)** | Missouri Univ. of Sci. & Tech, USA | [View Profile] |
+
+        ---
+        
         *Additional speakers being invited from Industries.*
-      # Ensure speaker images are in `assets/media/` or adjusted path.
-      items:
-        - name: Gayathri Ananthanarayanan
-          role: IIT Dharwad
-          url: 'https://www.iitdh.ac.in/user-profile/gayathri-ananthanarayanan'
-          image:
-            filename: speaker_gayathri.jpg # Path relative to assets/media/ or the page bundle
-            focal_point: Top # Example: try adjusting focal_point if faces are cut
-          
-        - name: Manik Gupta
-          role: BITS Pilani
-          url: 'https://www.bits-pilani.ac.in/hyderabad/manik-gupta'
-          image:
-            filename: speaker_manik.jpg
-            focal_point: Top
-          
-        - name: Ajay Pratap
-          role: IIT Bhuvaneswar
-          url: 'https://iitbhu.ac.in/dept/cse/people/ajaycse'
-          image:
-            filename: speaker_ajay.jpg
-            focal_point: Top
 
-        - name: Pandarasamy Arjunan
-          role: IISc
-          url: 'https://www.samy101.com/'
-          image:
-            filename: speaker_pandarasamy.jpg
-            focal_point: Top
-
-        - name: Yogesh Simmhan
-          role: IISc
-          url: 'https://cds.iisc.ac.in/faculty/simmhan/'
-          image:
-            filename: speaker_yogesh.jpg
-            focal_point: Top
-
-        - name: Sumit Mandal
-          role: IISc
-          url: 'https://www.csa.iisc.ac.in/~skmandal'
-          image:
-            filename: speaker_sumit.jpg
-            focal_point: Top
-
-        - name: Punit Rathore
-          role: IISc
-          url: 'https://www.punitrathore.com/home'
-          image:
-            filename: speaker_punit.jpg
-            focal_point: Top
-          
-        - name: Prasant Misra
-          role: TCS Research (Tutorial)
-          url: 'https://sites.google.com/site/prasantmisra/'
-          image:
-            filename: speaker_prasant.jpg
-            focal_point: Top
-
-        - name: Varun Ojha
-          role: New Castle University, UK
-          url: 'https://ojhavk.github.io/'
-          image:
-            filename: speaker_varun.jpg
-            focal_point: Top
-
-        - name: Sajal Das
-          role: Missouri Univ. of Sci. & Tech, USA
-          url: 'https://isc.mst.edu/people/ri/sdas/'
-          image:
-            filename: speaker_sajal.jpg
-            focal_point: Top
-            
     design:
-      columns: 3 # Now this will actually work!
-      show_role: true
-      show_social: false # We don't have social icons yet, so hide them
-      css_class: "bg-white dark:bg-dark" # Ensure a white background as in the image
+      columns: 1
 
   # === 5. AGENDA (NEW SECTION) ===
   - block: markdown

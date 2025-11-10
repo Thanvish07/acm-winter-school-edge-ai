@@ -160,7 +160,7 @@ sections:
           <a href="https://sites.google.com/site/prasantmisra/">
             <img src="speaker_prasant.jpg" alt="Photo of Prasant Misra" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
-          <p><strong>Prasant Misra</strong><br/>TCS Research (Tutorial)</p>
+          <p><strong>Prasant Misra</strong><br/>TCS Research</p>
         </div>
 
         <div style="width: 30%; min-width: 250px; margin: 10px;">

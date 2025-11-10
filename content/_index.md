@@ -133,12 +133,14 @@ sections:
       text: |
         **Pandarasamy Arjunan**
         *Local & Academic Coordinator*
+
         Email: [samy@iisc.ac.in](mailto:samy@iisc.ac.in)
         
         ---
         
         **Yogesh Simmhan**
         *Local & Academic Coordinator*
+        
         Email: [simmhan@iisc.ac.in](mailto:simmhan@iisc.ac.in)
         
     design:

@@ -109,79 +109,67 @@ sections:
       css_class: "bg-gray-100 dark:bg-gray-900"
       columns: 3
 
-# === 4. SPEAKERS BLOCK (Rendered as FEATURES for stability) ===
+# === 4. SPEAKERS BLOCK (FIXED: Removing 'icon' to force image display) ===
   - block: features
     id: speakers
     content:
       title: 🎤 Invited Speakers
-      # The description text goes here
       text: |
         Click on any speaker card to view their institutional profile.
       items:
         - name: Gayathri Ananthanarayanan
           description: "[IIT Dharwad](https://www.iitdh.ac.in/user-profile/gayathri-ananthanarayanan)"
-          icon: user
           link: https://www.iitdh.ac.in/user-profile/gayathri-ananthanarayanan
-          image: speaker_gayathri.jpg # Hugo Blox features block often uses `image` for card media
+          image: speaker_gayathri.jpg # Now this should render instead of the icon
 
         - name: Manik Gupta
           description: "[BITS Pilani](https://www.bits-pilani.ac.in/hyderabad/manik-gupta)"
-          icon: user
           link: https://www.bits-pilani.ac.in/hyderabad/manik-gupta
           image: speaker_manik.jpg
 
         - name: Ajay Pratap
           description: "[IIT Bhuvaneswar](https://iitbhu.ac.in/dept/cse/people/ajaycse)"
-          icon: user
           link: https://iitbhu.ac.in/dept/cse/people/ajaycse
           image: speaker_ajay.jpg
 
         - name: Pandarasamy Arjunan
           description: "[IISc](https://www.samy101.com/)"
-          icon: user
           link: https://www.samy101.com/
           image: speaker_pandarasamy.jpg
 
         - name: Yogesh Simmhan
           description: "[IISc](https://cds.iisc.ac.in/faculty/simmhan/)"
-          icon: user
           link: https://cds.iisc.ac.in/faculty/simmhan/
           image: speaker_yogesh.jpg
 
         - name: Sumit Mandal
           description: "[IISc](https://www.csa.iisc.ac.in/~skmandal)"
-          icon: user
           link: https://www.csa.iisc.ac.in/~skmandal
           image: speaker_sumit.jpg
 
         - name: Punit Rathore
           description: "[IISc](https://www.punitrathore.com/home)"
-          icon: user
           link: https://www.punitrathore.com/home
           image: speaker_punit.jpg
 
         - name: Prasant Misra
           description: "[TCS Research (Tutorial)](https://sites.google.com/site/prasantmisra/)"
-          icon: user
           link: https://sites.google.com/site/prasantmisra/
           image: speaker_prasant.jpg
 
         - name: Varun Ojha
           description: "[New Castle University, UK](https://ojhavk.github.io/)"
-          icon: user
           link: https://ojhavk.github.io/
           image: speaker_varun.jpg
 
         - name: Sajal Das
           description: "[Missouri Univ. of Sci. & Tech, USA](https://isc.mst.edu/people/ri/sdas/)"
-          icon: user
           link: https://isc.mst.edu/people/ri/sdas/
           image: speaker_sajal.jpg
           
     design:
-      # This is guaranteed to create 3 columns, like your Topics section
       columns: 3 
-      view: card # Explicitly use the 'card' view for better presentation
+      view: card # Use the card view for a cleaner look
       css_class: "bg-white"
 
   # === 5. AGENDA (NEW SECTION) ===

@@ -36,7 +36,7 @@ header:
     logo:
       text: 'Winter School on Edge AI ' # Main text logo
       # Logo filename in `assets/media/` folder
-      filename: '/assets/media/IISC.svg' # Remove default logo or add one like 'iisc-logo.svg'
+      filename: 'IISC.svg' # Remove default logo or add one like 'iisc-logo.svg'
     show_search: true
     show_theme_chooser: true
 

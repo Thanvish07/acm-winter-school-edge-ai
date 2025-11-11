@@ -89,72 +89,72 @@ sections:
     content:
       title: 🎤 Invited Speakers
       text: |
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center; max-width: 1200px; margin: 0 auto;">
+        <div style="display: flex; flex-wrap: wrap; justify-content: justify; text-align: center; max-width: 8000px; margin: 0 auto;">
         
-        <div style="width: 50%; min-width: 180px; margin: 10px;"> 
+        <div style="width: 30%; min-width: 180px; margin: 10px;"> 
           <a href="https://www.iitdh.ac.in/user-profile/gayathri-ananthanarayanan">
             <img src="speaker_gayathri.jpg" alt="Photo of Gayathri Ananthanarayanan" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
           <p><strong>Gayathri Ananthanarayanan</strong><br/>IIT Dharwad</p>
         </div>
 
-        <div style="width: 50%; min-width: 180px; margin: 10px;">
+        <div style="width: 30%; min-width: 180px; margin: 10px;">
           <a href="https://www.bits-pilani.ac.in/hyderabad/manik-gupta">
             <img src="speaker_manik.jpg" alt="Photo of Manik Gupta" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
           <p><strong>Manik Gupta</strong><br/>BITS Pilani</p>
         </div>
         
-        <div style="width: 50%; min-width: 180px; margin: 10px;">
+        <div style="width: 30%; min-width: 180px; margin: 10px;">
           <a href="https://iitbhu.ac.in/dept/cse/people/ajaycse">
             <img src="speaker_ajay.jpg" alt="Photo of Ajay Pratap" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
           <p><strong>Ajay Pratap</strong><br/>IIT Bhuvaneswar</p>
         </div>
 
-        <div style="width: 50%; min-width: 180px; margin: 10px;">
+        <div style="width: 30%; min-width: 180px; margin: 10px;">
           <a href="https://www.samy101.com/">
             <img src="speaker_pandarasamy.jpg" alt="Photo of Pandarasamy Arjunan" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
           <p><strong>Pandarasamy Arjunan</strong><br/>IISc</p>
         </div>
 
-        <div style="width: 50%; min-width: 180px; margin: 10px;">
+        <div style="width: 30%; min-width: 180px; margin: 10px;">
           <a href="https://cds.iisc.ac.in/faculty/simmhan/">
             <img src="speaker_yogesh.jpg" alt="Photo of Yogesh Simmhan" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
           <p><strong>Yogesh Simmhan</strong><br/>IISc</p>
         </div>
 
-        <div style="width: 50%; min-width: 180px; margin: 10px;">
+        <div style="width: 30%; min-width: 180px; margin: 10px;">
           <a href="https://www.csa.iisc.ac.in/~skmandal">
             <img src="speaker_sumit.jpg" alt="Photo of Sumit Mandal" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
           <p><strong>Sumit Mandal</strong><br/>IISc</p>
         </div>
 
-        <div style="width: 50%; min-width: 180px; margin: 10px;">
+        <div style="width: 30%; min-width: 180px; margin: 10px;">
           <a href="https://www.punitrathore.com/home">
             <img src="speaker_punit.jpg" alt="Photo of Punit Rathore" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
           <p><strong>Punit Rathore</strong><br/>IISc</p>
         </div>
         
-        <div style="width: 50%; min-width: 180px; margin: 10px;">
+        <div style="width: 30%; min-width: 180px; margin: 10px;">
           <a href="https://sites.google.com/site/prasantmisra/">
             <img src="speaker_prasant.jpg" alt="Photo of Prasant Misra" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
           <p><strong>Prasant Misra</strong><br/>TCS Research</p>
         </div>
 
-        <div style="width: 50%; min-width: 180px; margin: 10px;">
+        <div style="width: 30%; min-width: 180px; margin: 10px;">
           <a href="https://ojhavk.github.io/">
             <img src="speaker_varun.jpg" alt="Photo of Varun Ojha" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
           <p><strong>Varun Ojha</strong><br/>New Castle University, UK</p>
         </div>
 
-        <div style="width: 50%; min-width: 180px; margin: 10px;">
+        <div style="width: 30%; min-width: 180px; margin: 10px;">
           <a href="https://isc.mst.edu/people/ri/sdas/">
             <img src="speaker_sajal.jpg" alt="Photo of Sajal Das" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>

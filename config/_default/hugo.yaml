@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: ACM India Winter School on Edge AI # Website name
-baseURL: 'https://thanvish07.github.io/bold-fox-pages/' # Update this to your GitHub Pages URL later
+baseURL: 'https://thanvish07.github.io/acm-winter-school-edge-ai/' # Update this to your GitHub Pages URL later
 
 ############################
 ## PAGE OPTIONS

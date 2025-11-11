@@ -89,7 +89,7 @@ sections:
     content:
       title: 🎤 Invited Speakers
       text: |
-        <div style="display: flex; flex-wrap: wrap; justify-content: justify; text-align: center; max-width: 8000px; margin: 0 auto;">
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center; max-width: 8000px; margin: 0 auto;">
         
         <div style="width: 30%; min-width: 180px; margin: 10px;"> 
           <a href="https://www.iitdh.ac.in/user-profile/gayathri-ananthanarayanan">

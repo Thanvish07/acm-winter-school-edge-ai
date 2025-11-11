@@ -31,8 +31,7 @@ sections:
         
     design:
       columns: 1
-      # FIX: Removed "text-left". The theme's default will now center the text.
-      css_class: "dark" 
+      css_class: "dark"
       background:
         color: "navy"
         image:
@@ -55,7 +54,6 @@ sections:
         </p>
     design:
       columns: 1
-      # The max width is overridden for this section by the custom CSS file
       spacing:
         padding: ["6rem","0","6rem","0"]
 
@@ -185,6 +183,32 @@ sections:
       text: |
         The program will run from **28 DECEMBER 2025 to 4 JANUARY 2026**.
 
+        ## DAY 1
+        | Time | Event | Location |
+        | :--- | :--- | :--- |
+        | 9am | Coffee | Foyer |
+        | 10am | Keynote by John Smith | Room 1 |
+        | 11am | Talk on XYZ | Room 2 |
+        | 12pm | Lunch | Steak Kitchen |
+        | 1pm | Hands-on Session | Lab A |
+        | 3pm | Break | Foyer |
+        | 3:30pm | Invited Talk | Room 1 |
+        | 5pm | End of Day 1 | |
+
+        ---
+
+        ## DAY 2
+        | Time | Event | Location |
+        | :--- | :--- | :--- |
+        | 9am | Coffee | Foyer |
+        | 10am | Keynote by Jane Doe | Room 1 |
+        | 11am | Talk on ABC | Room 2 |
+        | 12pm | Lunch | Steak Kitchen |
+        | 1pm | Hands-on Session | Lab B |
+        | 3pm | Break | Foyer |
+        | 3:30pm | Invited Talk | Room 1 |
+        | 5pm | End of Day 2 | |
+        
     design:
       columns: 1
       css_class: "bg-gray-100 dark:bg-gray-900"

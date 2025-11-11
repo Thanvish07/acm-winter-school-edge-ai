@@ -8,7 +8,8 @@ design:
   spacing: "6rem"
 
 sections:
-- block: hero
+  # === 1. HERO BLOCK: Title, Dates, Host ===
+  - block: hero
     id: top
     content:
       title: ACM India Winter School on Edge AI
@@ -32,7 +33,7 @@ sections:
       columns: 1
       css_class: "dark"
 
-# === 2. ABOUT BLOCK: Description, Background, Software (WIDER & JUSTIFIED VIA CUSTOM CSS) ===
+  # === 2. ABOUT BLOCK: Description, Background, Software (WIDER & JUSTIFIED VIA CUSTOM CSS) ===
   - block: markdown
     id: about
     content:
@@ -48,7 +49,7 @@ sections:
       spacing:
         padding: ["6rem","0","6rem","0"]
 
-# === 3. TOPICS BLOCK (Visually interactive with icons) ===
+  # === 3. TOPICS BLOCK (Visually interactive with icons) ===
   - block: features
     id: topics
     content:
@@ -82,7 +83,7 @@ sections:
       css_class: "bg-gray-100 dark:bg-gray-900"
       columns: 3
 
-# === 4. SPEAKERS BLOCK (3-COLUMN GRID WITH VERTICAL SPACING, WIDTH OVERRIDDEN VIA CUSTOM CSS) ===
+  # === 4. SPEAKERS BLOCK (3-COLUMN GRID WITH VERTICAL SPACING, WIDTH OVERRIDDEN VIA CUSTOM CSS) ===
   - block: markdown
     id: speakers
     content:
@@ -155,7 +156,7 @@ sections:
 
         <div style="width: 30%; min-width: 180px; margin: 40px 10px;">
           <a href="https://isc.mst.edu/people/ri/sdas/">
-            <img src="speaker_sajal.jpg" alt="Photo of Sajal Das" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
+            <img src="speaker_sajal.jpg" alt="Photo of Sajal Das" alt="Photo of Sajal Das" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
           <p><strong>Sajal Das</strong><br/>Missouri Univ. of Sci. & Tech, USA</p>
         </div>
@@ -166,7 +167,7 @@ sections:
       view: compact
       columns: 1
 
-# === 5. PROGRAMS (NEW SECTION) ===
+  # === 5. PROGRAMS (NEW SECTION) ===
   - block: markdown
     id: programs
     content:

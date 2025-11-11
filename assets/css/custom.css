@@ -16,8 +16,16 @@
     text-align: justify;
 }
 
-
 #speakers .max-w-prose {
     max-width: 150ch !important;
     margin: 0 auto;
+}
+
+.navbar-brand {
+    height: 50px !important;
+}
+
+.navbar-brand svg {
+    max-height: 50px !important;
+    width: auto !important; 
 }

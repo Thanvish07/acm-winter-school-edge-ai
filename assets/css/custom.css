@@ -1,44 +1,22 @@
-/* assets/css/custom.css */
-
-/* --- FIX: HERO TITLE (Alignment and Single Line) --- */
-
-/* * FIX 1: Increase the width of the Hero block's main container for the title to fit. 
- * max-w-2xl is a common theme constraint; overriding it ensures the text can breathe.
- */
 #top .hero-block-container .max-w-2xl {
     max-width: 100% !important; 
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
 
-/* FIX 2: Force the Hero content to align left */
-#top .hero-block-container .text-center {
-    text-align: left !important;
-}
-
-/* FIX 3: Prevent the title text from wrapping and remove ellipsis */
 #top .hero-block-container h1 {
     white-space: nowrap !important;
     overflow: hidden !important;
-    text-overflow: clip !important; /* Use 'clip' instead of 'ellipsis' */
+    text-overflow: clip !important;
 }
 
-/* --- FIX: ABOUT THE SCHOOL (Wide Spread Content) --- */
-
-/* * Rule to make the About section content wide (from previous request).
- * This targets the narrow container class used by the theme.
- */
 #about .max-w-prose {
     max-width: 125ch !important;
     margin: 0 auto;
-    text-align: justify; /* Ensure the text is justified */
+    text-align: justify;
 }
 
-/* --- FIX: SPEAKERS (Wide Spread Content) --- */
 
-/* * FIX 4: Rule to make the Speakers section content wide (new request: 150ch).
- * This targets the narrow container class used by the theme.
- */
 #speakers .max-w-prose {
     max-width: 150ch !important;
     margin: 0 auto;

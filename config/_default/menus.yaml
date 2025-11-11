@@ -15,6 +15,6 @@ main:
   - name: Speakers
     url: /#speakers
     weight: 40
-  - name: Agenda
-    url: /#agenda
+  - name: Programs
+    url: /#programs
     weight: 50

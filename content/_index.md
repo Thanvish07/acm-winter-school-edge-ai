@@ -8,7 +8,7 @@ design:
   spacing: "6rem"
 
 sections:
-  # === 1. HERO BLOCK: Title, Dates, Host (ALIGNMENT & SINGLE LINE FORCED VIA CUSTOM CSS) ===
+  # === 1. HERO BLOCK: Title, Dates, Host (NOW CENTERED) ===
   - block: hero
     id: top
     content:
@@ -23,8 +23,8 @@ sections:
         **Coordinators:** Pandarasamy Arjunan & Yogesh Simmhan
     design:
       columns: 1
-      # Note: 'text-left' here is what tells the custom CSS to target this section for left alignment
-      css_class: "dark text-left"
+      # FIX: Removed "text-left". The theme's default will now center the text.
+      css_class: "dark" 
       background:
         color: "navy"
         image:

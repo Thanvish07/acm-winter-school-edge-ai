@@ -8,7 +8,7 @@ design:
   spacing: "6rem"
 
 sections:
-  # === 1. HERO BLOCK: Title, Dates, Host (FIXED TITLE & SPACING) ===
+  # === 1. HERO BLOCK: Title, Dates, Host (TITLE IS FORCED LEFT/SINGLE-LINE VIA CUSTOM CSS) ===
   - block: hero
     id: top
     content:
@@ -23,7 +23,7 @@ sections:
         **Coordinators:** Pandarasamy Arjunan & Yogesh Simmhan
     design:
       columns: 1
-      css_class: "dark text-left" # 'text-left' will be forced via custom.css
+      css_class: "dark text-left"
       background:
         color: "navy"
         image:
@@ -34,15 +34,15 @@ sections:
           position: center
           parallax: false
 
-# === 2. ABOUT BLOCK: Description, Background, Software (FIXED ALIGNMENT) ===
+# === 2. ABOUT BLOCK: Description, Background, Software (WIDER AND JUSTIFIED VIA CUSTOM CSS) ===
   - block: markdown
     id: about
     content:
       title: About the School
       text: |
-        <p style="text-align: justify; max-width: 1000px; margin: 0 auto;">
+        <p style="text-align: justify;">
         
-        The **ACM India Winter School on Edge AI** will provide an in-depth overview of software platforms, hardware systems, and AI models and algorithms for efficient deployment on accelerated and classic edge devices. The program will cover topics suchs as edge computing architectures and accelerators, co-optimization techniques of edge systems and ML models for performance, power and accuracy, federated learning frameworks, and the deployment of AI, generative AI/LLM models and AI agents at the edge for practical and IoT applications such as smart mobility and smart agriculture. Through lectures, hands-on sessions, and expert talks, participants will gain practical skills to design, implement, and optimize intelligent edge systems for diverse real-world applications.
+        The **ACM India Winter School on Edge AI** will provide an in-depth overview of software platforms, hardware systems, and AI models and algorithms for efficient deployment on accelerated and classic edge devices. The program will cover topics suchs as edge computing architectures and accelerators, co-optimization techniques of edge systems and ML models for performance, power and accuracy, federated learning frameworks, and the deployment of AI, generative AI/LLM models and AI agents at the edge for practical and IoT applications suchs as smart mobility and smart agriculture. Through lectures, hands-on sessions, and expert talks, participants will gain practical skills to design, implement, and optimize intelligent edge systems for diverse real-world applications.
         </p>
     design:
       columns: 1
@@ -83,7 +83,7 @@ sections:
       css_class: "bg-gray-100 dark:bg-gray-900"
       columns: 3
 
-# === 4. SPEAKERS BLOCK (Custom HTML/CSS for Circular Grid Layout - FINAL) ===
+# === 4. SPEAKERS BLOCK (3-COLUMN GRID WITH VERTICAL SPACING) ===
   - block: markdown
     id: speakers
     content:

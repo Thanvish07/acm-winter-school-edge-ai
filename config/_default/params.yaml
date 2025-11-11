@@ -47,5 +47,5 @@ footer:
 
 # Localization
 locale:
-  date_format: '2 Jan 2006' # Use a clearer date format
-  time_format: '3:04 PM'
+  date_format: '11 Nov 2025' # Use a clearer date format
+  time_format: '11:18 AM'

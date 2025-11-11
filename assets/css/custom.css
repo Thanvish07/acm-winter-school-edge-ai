@@ -1,0 +1,16 @@
+/* assets/css/custom.css */
+
+/*
+* Fix Hero Title Alignment (Overrides the theme's 'text-center' on the parent div)
+* Target the specific section ID (#top) to keep changes local to the Hero block.
+*/
+#top .hero-block-container .text-center {
+    text-align: left !important;
+}
+
+/* Fix Hero Title Single Line (Prevents the title from wrapping) */
+#top .hero-block-container h1 {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}

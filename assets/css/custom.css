@@ -1,16 +1,26 @@
 /* assets/css/custom.css */
 
-/*
-* Fix Hero Title Alignment (Overrides the theme's 'text-center' on the parent div)
-* Target the specific section ID (#top) to keep changes local to the Hero block.
-*/
+/* --- FIX: HERO TITLE (Alignment and Single Line) --- */
+
+/* Fix Hero Title Alignment: Forces the text container in the Hero block to align left */
 #top .hero-block-container .text-center {
     text-align: left !important;
 }
 
-/* Fix Hero Title Single Line (Prevents the title from wrapping) */
+/* Fix Hero Title Single Line: Prevents the text from wrapping */
 #top .hero-block-container h1 {
     white-space: nowrap !important;
     overflow: hidden !important;
     text-overflow: ellipsis !important;
+}
+
+/* --- FIX: ABOUT THE SCHOOL (Wide Spread Content) --- */
+
+/*
+* Forces the content container in the 'about' section to a wide width (1000ch)
+* This overrides the theme's default narrow max-width (.max-w-prose) for this section.
+*/
+#about .max-w-prose {
+    max-width: 1000ch !important; /* Forces the wide content width */
+    margin: 0 auto; /* Keeps the wide container centered */
 }

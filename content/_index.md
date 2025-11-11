@@ -24,9 +24,9 @@ sections:
         <a href="https://cds.iisc.ac.in/faculty/simmhan/">Yogesh Simmhan</a>
         
         <div style="margin-top: 30px; text-align: center;">
-          <img src="IISC.png" 
+          <img src="IISC_1.png" 
                alt="ACM India Logo" 
-               style="max-height: 100px; max-width: 80%; display: inline-block;">
+               style="max-height: 200px; max-width: 120%; display: inline-block;">
         </div>
         
     design:

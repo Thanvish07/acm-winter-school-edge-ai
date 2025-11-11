@@ -31,7 +31,17 @@ sections:
         
     design:
       columns: 1
-      css_class: "dark"
+      # FIX: Removed "text-left". The theme's default will now center the text.
+      css_class: "dark" 
+      background:
+        color: "navy"
+        image:
+          filename: bg-triangles.svg
+          filters:
+            brightness: 0.5
+          size: cover
+          position: center
+          parallax: false
 
   # === 2. ABOUT BLOCK: Description, Background, Software (WIDER & JUSTIFIED VIA CUSTOM CSS) ===
   - block: markdown

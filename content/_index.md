@@ -95,7 +95,7 @@ sections:
   - block: markdown
     id: speakers
     content:
-      title: 🎤 Speakers
+      title: Speakers
       text: |
         <div style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center; max-width: 1200px; margin: 0 auto;">
         
@@ -179,7 +179,7 @@ sections:
   - block: markdown
     id: programs
     content:
-      title: 📅 Programs
+      title: Programs
       text: |
         The program will run from **28 DECEMBER 2025 to 4 JANUARY 2026**.
 
@@ -211,7 +211,6 @@ sections:
         
     design:
       columns: 1
-      # FIX: Keep Programs on the light gray background
       css_class: "bg-gray-100 dark:bg-gray-900" 
       background:
         color: white
@@ -220,8 +219,7 @@ sections:
   - block: markdown
     id: logistics
     content:
-      # FIX: Renamed the title
-      title: 🗺️ Travel and Campus
+      title: Travel and Campus
       text: |
         This Program is hosted at the **CDS building, Indian Institute of Science (IISc), Bengaluru**.
         
@@ -239,7 +237,6 @@ sections:
         
     design:
       columns: 1
-      # FIX: Changed to pure white background
       css_class: "" 
       background:
         color: white

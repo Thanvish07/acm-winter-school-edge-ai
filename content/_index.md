@@ -221,12 +221,11 @@ sections:
     content:
       title: 🗺️ Logistics and Venue Maps
       text: |
-        The school is hosted at the **Department of Computational and Data Sciences (CDS)**, Indian Institute of Science (IISc), Bengaluru.
+        This Program is hosted at the **Department of Computational and Data Sciences (CDS)**, Indian Institute of Science (IISc), Bengaluru.
         
         ### Travel & Venue Details
         * **IISc Location:** The campus is easily accessible from all parts of Bengaluru. The nearest metro station is **Yeshwanthpur**.
-        * **Accommodation:** (Include details about nearby hotels or campus guest houses here based on the email.)
-        * **Venue Map:** The CDS building is located near the main administrative block. 
+        * **Venue Map:** The CDS building is located near the main administrative block. <a href="https://maps.app.goo.gl/Sygki6ResDbrqMEy9"> <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/fbdff15a-d053-47a6-84b8-04f2121e8bf6" /> </a>
         
         ### Key Contacts
         Please refer to your welcome email for emergency contacts and specific directions to the accommodation.

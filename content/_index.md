@@ -256,7 +256,7 @@ sections:
             <img src="iisc_logo.png" alt="IISc" style="max-height: 80px; width: auto;">
           </a>
           
-          <a href="https://rbccps.org/" target="_blank">
+          <a href="https://cps.iisc.ac.in/" target="_blank">
             <img src="rbccps-logo.png" alt="RBCCPS" style="max-height: 80px; width: auto;">
           </a>
           

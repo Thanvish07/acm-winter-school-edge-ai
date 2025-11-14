@@ -225,7 +225,7 @@ sections:
         
         ### Venue Details
         * **IISc Location:** The campus is easily accessible from all parts of Bengaluru. The nearest metro station is **Yeshwanthpur**.
-        * **Venue Map:** The CDS building is located near the main administrative block. <a href="https://maps.app.goo.gl/9yGqK2yQ8ZgQ5K4D9">📍 (Click for Map)</a>
+        * **Venue Map:** The CDS building is located near the main administrative block. <a href="https://maps.app.goo.gl/Sygki6ResDbrqMEy9">📍</a>
         
         ### Key Contacts
         Please refer to your welcome email for emergency contacts and specific directions to the accommodation.

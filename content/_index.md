@@ -16,9 +16,9 @@ sections:
       text: |
         **28 DECEMBER 2025 to 4 JANUARY 2026**<br><br>
 
-        **Host:**  **<a href="https://cps.iisc.ac.in/"> Robert Bosch Center for Cyber Physical Systems</a>** & **<a href="https://cds.iisc.ac.in/">Department of Computational and Data Sciences</a>** <br><br>
+        **Host:** **<a href="https://cps.iisc.ac.in/">Robert Bosch Center for Cyber Physical Systems</a>** & **<a href="https://cds.iisc.ac.in/">Department of Computational and Data Sciences</a>** <br><br>
 
-        **<a href="https://maps.app.goo.gl/Sygki6ResDbrqMEy9">Venue:</a>** Department of Computational and Data Sciences, Indian Institute of Science<br><br>
+        **<a href="https://maps.app.goo.gl/9yGqK2yQ8ZgQ5K4D9">Venue:</a>** Department of Computational and Data Sciences, Indian Institute of Science<br><br>
 
         **Coordinators:** <a href="https://www.samy101.com/">Pandarasamy Arjunan</a> & 
         <a href="https://cds.iisc.ac.in/faculty/simmhan/">Yogesh Simmhan</a>
@@ -225,7 +225,7 @@ sections:
         
         ### Venue Details
         * **IISc Location:** The campus is easily accessible from all parts of Bengaluru. The nearest metro station is **Yeshwanthpur**.
-        * **Venue Map:** The CDS building is located near the main administrative block. <a href="https://maps.app.goo.gl/Sygki6ResDbrqMEy9">📍</a>
+        * **Venue Map:** The CDS building is located near the main administrative block. <a href="https://maps.app.goo.gl/9yGqK2yQ8ZgQ5K4D9">📍 (Click for Map)</a>
         
         ### Key Contacts
         Please refer to your welcome email for emergency contacts and specific directions to the accommodation.
@@ -256,7 +256,7 @@ sections:
             <img src="iisc_logo.png" alt="IISc" style="max-height: 80px; width: auto;">
           </a>
           
-          <a href="https://cps.iisc.ac.in/" target="_blank">
+          <a href="https://rbccps.org/" target="_blank">
             <img src="rbccps-logo.png" alt="RBCCPS" style="max-height: 80px; width: auto;">
           </a>
           

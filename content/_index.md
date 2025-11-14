@@ -253,7 +253,7 @@ sections:
         <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 30px; margin-top: 30px;">
         
           <a href="https://india.acm.org/" target="_blank">
-            <img src="acm_logo.png" alt="ACM India Council" style="max-height: 80px; width: auto;">
+            <img src="acm-logo.png" alt="ACM India Council" style="max-height: 80px; width: auto;">
           </a>
           
           <a href="https://www.iisc.ac.in/" target="_blank">

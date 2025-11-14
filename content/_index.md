@@ -253,7 +253,7 @@ sections:
           </a>
           
           <a href="https://www.iisc.ac.in/" target="_blank">
-            <img src="IISc.png" alt="IISc" style="max-height: 80px; width: auto;">
+            <img src="iisc_logo.png" alt="IISc" style="max-height: 80px; width: auto;">
           </a>
           
           <a href="https://rbccps.org/" target="_blank">

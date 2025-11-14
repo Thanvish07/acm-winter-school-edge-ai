@@ -16,7 +16,7 @@ sections:
       text: |
         **28 DECEMBER 2025 to 4 JANUARY 2026**<br><br>
 
-        **Host:** **<a href="https://cps.iisc.ac.in/">Robert Bosch Center for Cyber Physical Systems</a>** & **<a href="https://cds.iisc.ac.in/">Department of Computational and Data Sciences</a>** <br><br>
+        **Host:** <a href="https://cps.iisc.ac.in/">Robert Bosch Center for Cyber Physical Systems</a> & <a href="https://cds.iisc.ac.in/">Department of Computational and Data Sciences</a> <br><br>
 
         **<a href="https://maps.app.goo.gl/9yGqK2yQ8ZgQ5K4D9">Venue:</a>** CDS building, Indian Institute of Science<br><br>
 

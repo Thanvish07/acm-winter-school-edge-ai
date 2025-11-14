@@ -1,6 +1,4 @@
-# Navigation Links
-#   To link a page section, specify the URL as a hash `/#` followed by the `id` of the section.
-#   The `weight` parameter defines the order that the links will appear in.
+# config/_default/menus.yaml - Updated
 
 main:
   - name: Home
@@ -18,3 +16,6 @@ main:
   - name: Programs
     url: /#programs
     weight: 50
+  - name: Venue Map
+    url: /#logistics
+    weight: 60

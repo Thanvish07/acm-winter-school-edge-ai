@@ -273,6 +273,9 @@ sections:
         
     design:
       columns: 1
+      css_class: "bg-gray-100 dark:bg-gray-900"
+      background:
+        color: white
       spacing:
         padding: ["3rem","0","3rem","0"]
 ---

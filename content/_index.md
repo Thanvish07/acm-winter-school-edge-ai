@@ -35,7 +35,7 @@ sections:
       background:
         color: "navy"
         image:
-          filename: bg-10.jpg
+          filename: bg-triangles.svg
           filters:
             brightness: 0.5
             size: cover

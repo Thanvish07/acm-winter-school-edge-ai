@@ -35,7 +35,7 @@ sections:
       background:
         color: "navy"
         image:
-          filename: bg-6.jpg
+          filename: bg-7.jpg
           filters:
             brightness: 0.5
             size: cover

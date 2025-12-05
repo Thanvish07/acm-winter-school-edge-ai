@@ -35,7 +35,7 @@ sections:
       background:
         color: "navy"
         image:
-          filename: bg_1.SVG
+          filename: bg_2.jpg
           filters:
             brightness: 0.5
             size: cover

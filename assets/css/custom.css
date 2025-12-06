@@ -127,6 +127,10 @@
     background: inherit !important;
 }
 
+#programs .content h3 {
+    text-align: center !important;
+}
+
 #programs .content .prose table.schedule-table {
     /* Set a much wider maximum width */
     max-width: 90vw !important; /* 90% of the viewport width */

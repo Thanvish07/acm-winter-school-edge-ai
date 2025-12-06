@@ -203,7 +203,7 @@ sections:
         
     design:
       view: compact
-      columns: 1
+      columns: 4
 
   # === 5. PROGRAMS (NEW SECTION) ===
   - block: features

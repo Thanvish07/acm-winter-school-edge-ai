@@ -82,12 +82,21 @@
     text-align: justify;
 }
 
+/* --- Topics --- */
+
+#topics .max-w-prose {
+    max-width: 125ch !important;
+    margin: 0 auto;
+    text-align: justify;
+}
+
 /* --- SPEAKERS SECTION  (Width and Row Spacing) --- */
 
 /* 7. Sets the content width for the Speakers section to 80ch. */
 #speakers .max-w-prose {
-    max-width: 80ch !important;
+    max-width: 125ch !important;
     margin: 0 auto;
+    text-align: justify;
 }
 
 /* 8.  Decreases vertical spacing between speaker rows (from 40px to 10px). */
@@ -97,6 +106,11 @@
 }
 
 /* --- PROGRAMS TABLE FIXES --- */
+#programs .max-w-prose {
+    max-width: 125ch !important;
+    margin: 0 auto;
+    text-align: justify;
+}
 
 #programs .schedule-table {
     width: 100% !important;
@@ -155,6 +169,12 @@
 }
 
 /* --- SPONSORS SECTION  (Single-Row Layout) --- */
+
+#sponsors .max-w-prose {
+    max-width: 125ch !important;
+    margin: 0 auto;
+    text-align: justify;
+}
 
 /* 10. Target the flex container to manage overall width. (For multi-row flex-wrap: nowrap is added here implicitly) */
 #sponsors .content div[style*="display: flex"] {

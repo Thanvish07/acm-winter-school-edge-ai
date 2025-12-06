@@ -9,31 +9,38 @@ design:
 
 sections:
   # === 1. HERO BLOCK: Title, Dates, Host ===
-  - block: hero
-    id: top
-    content:
-      title: ACM India Winter School on Edge AI
-      text: |
-          **28 DECEMBER 2025 to 4 JANUARY 2026**<br><br>
-  
-          **Host:** <a href="https://cps.iisc.ac.in/">Robert Bosch Center for Cyber Physical Systems (RBCCPS)</a> & <a href="https://cds.iisc.ac.in/">Department of Computational and Data Sciences (CDS).</a> <br><br>
-  
-          **Venue:** CDS building, Indian Institute of Science (IISc), Bengaluru.<br><br>
-  
-          **Coordinators:** <a href="https://www.samy101.com/">Pandarasamy Arjunan</a> & 
-          <a href="https://cds.iisc.ac.in/faculty/simmhan/">Yogesh Simmhan.</a>
-    design:
-      columns: 1
-      css_class: "light"
-      background:
-        color: "white"
-        image:
-          filename: bg-white1.svg
-          filters:
-            brightness: 0.5
-            size: cover
-            position: center
-          parallax: false
+  - block: hero
+    id: top
+    content:
+      title: ACM India Winter School on Edge AI
+      text: |
+        **28 DECEMBER 2025 to 4 JANUARY 2026**<br><br>
+
+        **Host:** <a href="https://cps.iisc.ac.in/">Robert Bosch Center for Cyber Physical Systems (RBCCPS)</a> & <a href="https://cds.iisc.ac.in/">Department of Computational and Data Sciences (CDS).</a> <br><br>
+
+        **Venue:** CDS building, Indian Institute of Science (IISc), Bengaluru.<br><br>
+
+        **Coordinators:** <a href="https://www.samy101.com/">Pandarasamy Arjunan</a> & 
+        <a href="https://cds.iisc.ac.in/faculty/simmhan/">Yogesh Simmhan.</a>
+        
+        <div style="margin-top: 30px; text-align: center;">
+          <img src="IISC.png" 
+               alt="ACM India Logo" 
+               style="max-height: 200px; max-width: 120%; display: inline-block;">
+        </div>
+        
+    design:
+      columns: 1
+      css_class: "light" # Corrected for white background/black text
+      background:
+        color: "white"
+        image:
+          filename: bg-white1.svg
+          filters:
+            brightness: 0.5
+            size: cover
+            position: center
+          parallax: false
         
   # === 2. ABOUT BLOCK: Description, Background, Software (WIDER & JUSTIFIED VIA CUSTOM CSS) ===
   - block: markdown
@@ -88,7 +95,7 @@ sections:
   - block: markdown
     id: speakers
     content:
-      title: Speakers
+      title: 🎤 Speakers
       text: |
         <div style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center; max-width: 1200px; margin: 0 auto;">
         
@@ -168,7 +175,7 @@ sections:
       view: compact
       columns: 1
 
-# === 5. PROGRAMS (NEW SECTION) ===
+  # === 5. PROGRAMS (NEW SECTION) ===
   - block: markdown
     id: programs
     content:
@@ -359,7 +366,7 @@ sections:
           <tr><th style="width: 25%; text-align: center;">Color</th><th style="width: 75%;">Session Type</th></tr>
         </thead>
         <tbody>
-          <tr style="background-color: #FFB1F5"><td style="text-align: center;">&nbsp;</td><td>Keynote / Plenary Talk</td></tr>
+          <tr style="background-color: #FFB1F5"><td>&nbsp;</td><td>Keynote / Plenary Talk</td></tr>
           <tr style="background-color: #B6D9FF"><td>&nbsp;</td><td>Lecture</td></tr>
           <tr style="background-color: #F8D8BF"><td>&nbsp;</td><td>Lab/Tutorial</td></tr>
           <tr style="background-color: #DE9F32"><td>&nbsp;</td><td>Industry Talk/Tutorial</td></tr>

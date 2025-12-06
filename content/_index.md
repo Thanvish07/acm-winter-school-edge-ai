@@ -92,7 +92,7 @@ sections:
     content:
       title: 🎤 Meet the Presenters
       text: |
-        ### Keynote Speakers
+        ### **Keynote Speakers**
         <div style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center; max-width: 1200px; margin: 0 auto;">
         
         <div style="width: 30%; min-width: 180px; margin: 40px 10px;"> 
@@ -139,7 +139,7 @@ sections:
   
         </div>
         
-        ### Speakers
+        ### **Session Speakers**
   
         <div style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center; max-width: 1200px; margin: 0 auto;">
 

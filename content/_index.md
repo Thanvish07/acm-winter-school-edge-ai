@@ -61,27 +61,27 @@ sections:
         The winter school covers foundational and advanced aspects of Edge AI.
       items:
         - name: Foundations of IoT, Accelerated Edge Computing and Edge AI
-          icon: layer-group # Represents foundational layers and infrastructure
+          icon: server # Robust icon for infrastructure/foundations
         - name: Tiny and Embedded Machine Learning
-          icon: microchip # Directly represents embedded/small silicon
+          icon: microchip # Standard icon for embedded hardware
         - name: Model Optimization and Acceleration for Edge AI
-          icon: rocket # Represents speed and acceleration
+          icon: arrow-up # Simple, universal symbol for improvement/acceleration
         - name: Edge AI Platforms, Frameworks, and Deployment Pipelines
-          icon: cogs # Represents mechanisms, systems, and frameworks
+          icon: cogs # Standard icon for systems and mechanisms
         - name: Federated Learning and Distributed Training for Edge Devices
-          icon: network-wired # Represents distributed and networked systems
+          icon: users # Reliable icon for distribution and shared resources
         - name: Neuromorphic Computing and Brain-Inspired Architectures
-          icon: brain # Direct representation of brain-inspired computing
+          icon: brain # Standard and universal icon
         - name: Generative AI and LLM at the Edge
-          icon: sparkles # Represents generation and creativity (kept original)
+          icon: magic # Standard alias for creation/generation
         - name: Agentic AI on the Edge
-          icon: robot # Represents intelligent, autonomous agents
+          icon: robot # Standard icon for autonomous agents
         - name: Security, Privacy, and Responsible AI in Edge Systems
-          icon: shield-alt # Represents protection and defense
+          icon: lock # Reliable icon for security and privacy
         - name: Benchmarking, Profiling, and Performance Evaluation of Edge AI Systems
-          icon: tachometer-alt # Represents performance and measurement (dashboard/gauge)
+          icon: chart-line # Represents performance measurement and analysis
         - name: Edge AI for Drones/UAVs, IoT, Smart Cities, and Industrial Applications
-          icon: city # Represents urban and global applications
+          icon: globe-europe # Represents global, geographical, and IoT applications
     design:
       css_class: "bg-gray-100 dark:bg-gray-900"
       columns: 3

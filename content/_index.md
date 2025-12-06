@@ -357,6 +357,19 @@ sections:
         </tbody>
         </table>
 
+        ---
+
+        ## Color Key (Session Types)
+        
+        <div style="font-size: 1.1em; display: flex; flex-wrap: wrap; justify-content: center; max-width: 900px; margin: 20px auto; line-height: 1.8;">
+          <span style="background-color: #CCE5FF; padding: 5px 10px; margin: 5px; border: 1px solid #AAA; border-radius: 4px;">&nbsp;&nbsp;</span> **Keynote / Invited Talk**
+          <span style="background-color: #FFF3CD; padding: 5px 10px; margin: 5px; border: 1px solid #AAA; border-radius: 4px;">&nbsp;&nbsp;</span> **Technical Lecture**
+          <span style="background-color: #D1E7DD; padding: 5px 10px; margin: 5px; border: 1px solid #AAA; border-radius: 4px;">&nbsp;&nbsp;</span> **Hands-on / Lab Session**
+          <span style="background-color: #E6E6FA; padding: 5px 10px; margin: 5px; border: 1px solid #AAA; border-radius: 4px;">&nbsp;&nbsp;</span> **Hackathon / Demo**
+          <span style="background-color: #ADD8E6; padding: 5px 10px; margin: 5px; border: 1px solid #AAA; border-radius: 4px;">&nbsp;&nbsp;</span> **Reserved / Special Session**
+          <span style="background-color: #F0F0F0; padding: 5px 10px; margin: 5px; border: 1px solid #AAA; border-radius: 4px;">&nbsp;&nbsp;</span> **Break / Meal**
+        </div>
+
     design:
       columns: 1
       css_class: "bg-gray-100 dark:bg-gray-900"

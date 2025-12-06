@@ -288,7 +288,7 @@ sections:
 
         ---
         <br><br>
-                                               ### **DAY 6 - 2nd Jan 2026**
+        ### **DAY 6 - 2nd Jan 2026**
         <table class="schedule-table">
         <thead>
         <tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
@@ -354,7 +354,7 @@ sections:
 
         ---
         <br><br>
-        ## **Session Info**
+        ### **Session Info**
         
         <table class="schedule-table" style="width: 100%; max-width: 600px; margin: 30px auto 0 auto; font-size: 1em;">
         <thead>

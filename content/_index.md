@@ -8,32 +8,35 @@ design:
   spacing: "6rem"
 
 sections:
-  # === 1. HERO BLOCK: Title, Dates, Host ===
-  - block: hero
-    id: top
-    content:
-      title: ACM India Winter School on Edge AI
-      text: |
-    
-        **Host:** <a href="https://cps.iisc.ac.in/">RBCCPS</a> & <a href="https://cds.iisc.ac.in/">CDS</a>.<br><br>
+# === 1. HERO BLOCK: Title, Dates, Host ===
+- block: hero
+  id: top
+  content:
+    # REMOVED: title: ACM India Winter School on Edge AI
+    text: |
+      <h1 class="gradient-title">ACM India Winter School on Edge AI</h1> # <<< NEW H1 WITH CLASS
+      
+      **28 DECEMBER 2025 to 4 JANUARY 2026**<br><br>
 
-        **Venue:** CDS building, Indian Institute of Science (IISc), Bengaluru.<br><br>
+      **Host:** <a href="https://cps.iisc.ac.in/">Robert Bosch Center for Cyber Physical Systems (RBCCPS)</a> & <a href="https://cds.iisc.ac.in/">Department of Computational and Data Sciences (CDS).</a> <br><br>
 
-        **Coordinators:** <a href="https://www.samy101.com/">Pandarasamy Arjunan</a> & 
-        <a href="https://cds.iisc.ac.in/faculty/simmhan/">Yogesh Simmhan.</a>
-        
-    design:
-      columns: 1
-      css_class: "light" # Corrected for white background/black text
-      background:
-        color: "white"
-        image:
-          filename: bg-white1.svg
-          filters:
-            brightness: 0.5
-            size: cover
-            position: center
-          parallax: false
+      **Venue:** CDS building, Indian Institute of Science (IISc), Bengaluru.<br><br>
+
+      **Coordinators:** <a href="https://www.samy101.com/">Pandarasamy Arjunan</a> & 
+      <a href="https://cds.iisc.ac.in/faculty/simmhan/">Yogesh Simmhan.</a>
+      
+  design:
+    columns: 1
+    css_class: "light" 
+    background:
+      color: "white"
+      image:
+        filename: bg-white1.svg
+        filters:
+          brightness: 0.5
+          size: cover
+          position: center
+        parallax: false
         
   # === 2. ABOUT BLOCK: Description, Background, Software (WIDER & JUSTIFIED VIA CUSTOM CSS) ===
   - block: markdown

@@ -28,7 +28,7 @@
 /* --- RAINBOW GRADIENT TITLE (Darker Colors) --- */
 
 #top .gradient-title {
-    /* ... (Your rainbow gradient code remains here) ... */
+    /* 1. Define the DARKER rainbow gradient background */
     background-image: linear-gradient(
         90deg, 
         #990000, /* Dark Red */
@@ -39,7 +39,7 @@
         #4B0082  /* Indigo */
     ); 
     
-    /* Set the strong size explicitly */
+    /* Set the strong size explicitly (Adjusting this to a more robust h1 selector) */
     font-size: 5rem !important; 
     line-height: 1.1 !important;
 
@@ -49,10 +49,12 @@
     color: transparent !important;
     -webkit-text-fill-color: transparent !important;
 
-    /* --- FIX: STABILIZE GLYPH RENDERING --- */
-    /* This rule forces the browser to render the text in a way that allows the clip to work on all glyphs. */
+    /* --- FIX 1: Stabilize Rendering Mode --- */
     text-shadow: 0 0 0 transparent !important; 
-    /* This makes the gradient reliable for letters like 'G' */
+    
+    /* --- FINAL FIX: Force Hardware Acceleration to Resolve Subpixel Artifacts (for 'G') --- */
+    -webkit-transform: translate3d(0, 0, 0) !important;
+    transform: translate3d(0, 0, 0) !important;
 }
 
 /* --- NAVBAR LOGO SIZE FIX --- */

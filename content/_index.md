@@ -37,7 +37,7 @@ sections:
             position: center
           parallax: false
     
-# === 8. KEY METRICS BLOCK ===
+# === 8. KEY METRICS BLOCK (Robust Display Fix) ===
   - block: stats
     id: metrics
     content:
@@ -45,17 +45,17 @@ sections:
       subtitle: What the Winter School delivers
       items:
         - target: 10
-          name: Core Topics
+          name: 10 Core Topics
           description: Covered across all lectures and labs.
-        - target: 10
-          name: Invited Speakers
+        - target: 10 
+          name: 10 Invited Speakers
           description: Experts from Academia and Industry.
         - target: 8
-          name: Days of Intense Learning
+          name: 8 Days of Intense Learning
           description: Complete duration of the Winter School.
     design:
       columns: 3
-      css_class: "bg-gray-100 dark:bg-gray-900"
+      css_class: "bg-gray-100 dark:bg-gray-900" 
       spacing:
         padding: ["6rem","0","6rem","0"]
         

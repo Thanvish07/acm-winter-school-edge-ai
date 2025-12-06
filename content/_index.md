@@ -199,7 +199,6 @@ sections:
         </table>
         
         ---
-        <br><br>
         ### **DAY 2 - 29th Dec 2025**
         <table class="schedule-table">
         <thead>
@@ -221,7 +220,6 @@ sections:
         </table>
         
         ---
-        <br><br>
         ### **DAY 3 - 30th Dec 2025**
         <table class="schedule-table">
         <thead>
@@ -243,7 +241,6 @@ sections:
         </table>
 
         ---
-        <br><br>
         ### **DAY 4 - 31st Dec 2025**
         <table class="schedule-table">
         <thead>
@@ -265,7 +262,6 @@ sections:
         </table>
 
         ---
-        <br><br>
         ### **DAY 5 - 1st Jan 2026**
         <table class="schedule-table">
         <thead>
@@ -287,7 +283,6 @@ sections:
         </table>
 
         ---
-        <br><br>
         ### **DAY 6 - 2nd Jan 2026**
         <table class="schedule-table">
         <thead>
@@ -309,7 +304,6 @@ sections:
         </table>
 
         ---
-        <br><br>
         ### **DAY 7 - 3rd Jan 2026**
         <table class="schedule-table">
         <thead>
@@ -331,7 +325,6 @@ sections:
         </table>
         
         ---
-        <br><br>
         ### **DAY 8 - 4th Jan 2026**
         <table class="schedule-table">
         <thead>
@@ -354,7 +347,7 @@ sections:
 
         ---
 
-        ## Session Info
+        ## **Session Info**
         
         <table class="schedule-table" style="width: 100%; max-width: 600px; margin: 30px auto 0 auto; font-size: 1em;">
         <thead>

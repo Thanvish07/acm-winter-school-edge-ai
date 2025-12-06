@@ -37,11 +37,11 @@ sections:
             position: center
           parallax: false
     
-# === 8. KEY METRICS BLOCK (Robust Display Fix) ===
+# === KEY METRICS BLOCK (Robust Display Fix) ===
   - block: stats
     id: metrics
     content:
-      title: Key Metrics
+      title:
       subtitle: What the Winter School delivers
       items:
         - target: 10

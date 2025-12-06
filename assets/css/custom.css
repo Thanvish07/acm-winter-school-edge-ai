@@ -1,5 +1,22 @@
 /* assets/css/custom.css */
 
+/* GRADIENT TITLE --- */
+
+#top .gradient-title {
+    /* 1. Define the gradient background */
+    background-image: linear-gradient(90deg, #0077B6, #800080); 
+    
+    /* 2. Clip the background to the shape of the text */
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    /* 3. Make the foreground text transparent so the background shows through */
+    color: transparent;
+    
+    /* Ensure the gradient is visible over the white background */
+    -webkit-text-fill-color: transparent; /* For older WebKit compatibility */
+}
+
 /* --- HERO BLOCK  (Title and Text Size) --- */
 
 /* 1. Ensure the Hero container is wide enough for the title to fit on one line. */

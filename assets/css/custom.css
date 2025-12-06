@@ -148,7 +148,7 @@
 /* --- VENUE SECTION --- */
 
 /* 9. Sets the content width for the Venue section to 125ch and justifies text. */
-#venue ..max-w-prose {
+#venue .max-w-prose {
     max-width: 125ch !important;
     margin: 0 auto;
     text-align: justify;

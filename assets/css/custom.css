@@ -40,12 +40,16 @@
     ); 
     
     /* 2. Clip the background to the shape of the text */
-    -webkit-background-clip: text;
-    background-clip: text;
-    
-    /* 3. Make the foreground text transparent */
-    color: transparent;
-    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    color: transparent !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+/* Set the title size explicitly, using a combination of Tailwind and !important */
+#top h1.gradient-title {
+    font-size: 3rem !important; /* Set a strong size, e.g., 3rem/48px */
+    line-height: 1.1 !important;
 }
 
 /* --- NAVBAR LOGO SIZE FIX --- */

@@ -28,18 +28,15 @@
 /* --- RAINBOW GRADIENT TITLE (Darker Colors) --- */
 
 #top .gradient-title {
-    /* 1. Define the DARKER rainbow gradient background */
+    /* 1. Simplified 3-color gradient (Red-Green-Blue) for stability */
     background-image: linear-gradient(
         90deg, 
-        #990000, /* Dark Red */
-        #CC6600, /* Burnt Orange */
-        #CCCC00, /* Olive Yellow */
-        #008000, /* Dark Green */
-        #006699, /* Deep Cyan */
-        #4B0082  /* Indigo */
+        #990000, /* Dark Red (Start) */
+        #008000, /* Dark Green (Middle) */
+        #4B0082  /* Indigo (End) */
     ); 
     
-    /* Set the strong size explicitly (Adjusting this to a more robust h1 selector) */
+    /* Set the strong size explicitly */
     font-size: 5rem !important; 
     line-height: 1.1 !important;
 
@@ -49,11 +46,10 @@
     color: transparent !important;
     -webkit-text-fill-color: transparent !important;
 
-    /* --- FIX 1: Stabilize Rendering Mode --- */
+    /* FIXES FOR GLYPH STABILITY */
+    /* Forces robust rendering mode */
     text-shadow: 0 0 0 transparent !important; 
-    
-    /* --- FINAL FIX: Force Hardware Acceleration to Resolve Subpixel Artifacts (for 'G') --- */
-    -webkit-transform: translate3d(0, 0, 0) !important;
+    /* Maintains hardware acceleration */
     transform: translate3d(0, 0, 0) !important;
 }
 

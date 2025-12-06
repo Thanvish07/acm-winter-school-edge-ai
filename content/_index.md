@@ -176,7 +176,7 @@ sections:
     content:
       title: 📅 Programs
       text: |
-    
+        <br><br>
         The program will run from **28 DECEMBER 2025 to 4 JANUARY 2026**.
     
         <br><br>
@@ -190,7 +190,7 @@ sections:
         <tr style="background-color: #FFB1F5"><td>9:00 – 10:00 AM</td><td>Vijay Janappa Reddi (Harvard University)</td><td>Keynote Address</td></tr>
         <tr style="background-color: #B6D9FF"><td>10:00 – 11:00 AM</td><td>Chetan Singh Takur (IISc)</td><td>Technical Talk</td></tr>
         <tr style="background-color: #E3E9ED"><td>11:00 – 11:15 AM</td><td>—</td><td>Tea/Coffee Break</td></tr>
-        <tr style="background-color: #B6D9FF"><td>11:15 AM – 12:45 PM</td><td>Chetan Singh Takur (IISc)</td><td>Hands-on Session</td></tr>
+        <tr style="background-color: #B6D9FF"><td>11:15 – 12:45 PM</td><td>Chetan Singh Takur (IISc)</td><td>Hands-on Session</td></tr>
         <tr style="background-color: #E3E9ED"><td>12:45 – 2:00 PM</td><td>—</td><td>Lunch Break</td></tr>
         <tr style="background-color: #F8D8BF"><td>2:00 – 3:30 PM</td><td>Pandarasamy Arjunan (IISc)</td><td>Tiny ML Lab</td></tr>
         <tr style="background-color: #E3E9ED"><td>3:30 – 4:00 PM</td><td>—</td><td>Tea/Coffee Break</td></tr>
@@ -212,7 +212,7 @@ sections:
         <tr style="background-color: #B6D9FF"><td>9:00 – 10:00 AM</td><td>Sumit Kumar Mandal (IISc)</td><td>Technical Session</td></tr>
         <tr style="background-color: #B6D9FF"><td>10:00 – 11:00 AM</td><td>Gayathri Ananthanarayanan (IIT Dharwad)</td><td>Technical Session</td></tr>
         <tr style="background-color: #E3E9ED"><td>11:00 – 11:15 AM</td><td>—</td><td>Tea/Coffee Break</td></tr>
-        <tr style="background-color: #B6D9FF"><td>11:15 AM – 12:45 PM</td><td>Gayathri Ananthanarayanan (IIT Dharwad)</td><td>Hands-on Session</td></tr>
+        <tr style="background-color: #B6D9FF"><td>11:15 – 12:45 PM</td><td>Gayathri Ananthanarayanan (IIT Dharwad)</td><td>Hands-on Session</td></tr>
         <tr style="background-color: #E3E9ED"><td>12:45 – 2:00 PM</td><td>—</td><td>Lunch Break</td></tr>
         <tr style="background-color: #B6D9FF"><td>2:00 – 3:30 PM</td><td>Pandarasamy Arjunan (IISc)</td><td>Embedded Computer Vision Lab</td></tr>
         <tr style="background-color: #E3E9ED"><td>3:30 – 4:00 PM</td><td>—</td><td>Tea/Coffee Break</td></tr>
@@ -234,7 +234,7 @@ sections:
         <tr style="background-color: #B6D9FF"><td>9:00 – 10:00 AM</td><td>Yogesh Simmhan (IISc)</td><td>Technical Session</td></tr>
         <tr style="background-color: #B6D9FF"><td>10:00 – 11:00 AM</td><td>Yogesh Simmhan (IISc)</td><td>Technical Session</td></tr>
         <tr style="background-color: #E3E9ED"><td>11:00 – 11:15 AM</td><td>—</td><td>Tea/Coffee Break</td></tr>
-        <tr style="background-color: #B6D9FF"><td>11:15 AM – 12:45 PM</td><td>Prashanti (AMD)</td><td>Invited Talk</td></tr>
+        <tr style="background-color: #B6D9FF"><td>11:15 – 12:45 PM</td><td>Prashanti (AMD)</td><td>Invited Talk</td></tr>
         <tr style="background-color: #E3E9ED"><td>12:45 – 2:00 PM</td><td>—</td><td>Lunch Break</td></tr>
         <tr style="background-color: #F8D8BF"><td>2:00 – 3:30 PM</td><td>Yogesh Simmhan (IISc)</td><td>ML on Edge Accelerators Lab</td></tr>
         <tr style="background-color: #E3E9ED"><td>3:30 – 4:00 PM</td><td>—</td><td>Tea/Coffee Break</td></tr>
@@ -256,7 +256,7 @@ sections:
         <tr style="background-color: #B6D9FF"><td>9:00 – 10:00 AM</td><td>Yogesh Simmhan (IISc)</td><td>Technical Session</td></tr>
         <tr style="background-color: #B6D9FF"><td>10:00 – 11:00 AM</td><td>Yogesh Simmhan (IISc)</td><td>Technical Session</td></tr>
         <tr style="background-color: #E3E9ED"><td>11:00 – 11:15 AM</td><td>—</td><td>Tea/Coffee Break</td></tr>
-        <tr style="background-color: #F8D8BF"><td>11:15 AM – 12:45 PM</td><td>Yogesh Simmhan (IISc)</td><td>FL on Edge Lab</td></tr>
+        <tr style="background-color: #F8D8BF"><td>11:15 – 12:45 PM</td><td>Yogesh Simmhan (IISc)</td><td>FL on Edge Lab</td></tr>
         <tr style="background-color: #E3E9ED"><td>12:45 – 2:00 PM</td><td>—</td><td>Lunch Break</td></tr>
         <tr style="background-color: #FFB1F5"><td>2:00 – 3:30 PM</td><td>Varun Ojha (New Castle)</td><td>Invited Talk</td></tr>
         <tr style="background-color: #E3E9ED"><td>3:30 – 4:00 PM</td><td>—</td><td>Tea/Coffee Break</td></tr>
@@ -278,7 +278,7 @@ sections:
         <tr style="background-color: #B6D9FF"><td>9:00 – 10:00 AM</td><td>Pandarasamy Arjunan (IISc)</td><td>Technical Session</td></tr>
         <tr style="background-color: #B6D9FF"><td>10:00 – 11:00 AM</td><td>Sumit Kumar Mandal (IISc)</td><td>Technical Session</td></tr>
         <tr style="background-color: #E3E9ED"><td>11:00 – 11:15 AM</td><td>—</td><td>Tea/Coffee Break</td></tr>
-        <tr style="background-color: #B6D9FF"><td>11:15 AM – 12:45 PM</td><td>Prasant Misra (IISc & TCS)</td><td>Invited Talk</td></tr>
+        <tr style="background-color: #B6D9FF"><td>11:15 – 12:45 PM</td><td>Prasant Misra (IISc & TCS)</td><td>Invited Talk</td></tr>
         <tr style="background-color: #E3E9ED"><td>12:45 – 2:00 PM</td><td>—</td><td>Lunch Break</td></tr>
         <tr style="background-color: #B6D9FF"><td>2:00 – 3:30 PM</td><td>Punit Rathore (IISc)</td><td>Hands-on Session</td></tr>
         <tr style="background-color: #E3E9ED"><td>3:30 – 4:00 PM</td><td>—</td><td>Tea/Coffee Break</td></tr>
@@ -300,7 +300,7 @@ sections:
         <tr style="background-color: #FFB1F5"><td>9:00 – 10:00 AM</td><td>Sajal Das (Missouri)</td><td>Technical Session</td></tr>
         <tr style="background-color: #B6D9FF"><td>10:00 – 11:00 AM</td><td>Manik Gupta (BITS, Pilani)</td><td>Technical Session</td></tr>
         <tr style="background-color: #E3E9ED"><td>11:00 – 11:15 AM</td><td>—</td><td>Tea/Coffee Break</td></tr>
-        <tr style="background-color: #B6D9FF"><td>11:15 AM – 12:45 PM</td><td>Manik Gupta (BITS, Pilani)</td><td>Technical Session</td></tr>
+        <tr style="background-color: #B6D9FF"><td>11:15 – 12:45 PM</td><td>Manik Gupta (BITS, Pilani)</td><td>Technical Session</td></tr>
         <tr style="background-color: #E3E9ED"><td>12:45 – 2:00 PM</td><td>—</td><td>Lunch Break</td></tr>
         <tr style="background-color: #F8D8BF"><td>2:00 – 3:30 PM</td><td>Manik Gupta (BITS, Pilani)</td><td>IoT Analytics Lab</td></tr>
         <tr style="background-color: #E3E9ED"><td>3:30 – 4:00 PM</td><td>—</td><td>Tea/Coffee Break</td></tr>
@@ -322,7 +322,7 @@ sections:
         <tr style="background-color: #FFB1F5"><td>9:00 – 10:00 AM</td><td>Archan Misra (SMU)</td><td>Technical Session</td></tr>
         <tr style="background-color: #B6D9FF"><td>10:00 – 11:00 AM</td><td>Ajay Pratap (IIT Bhu)</td><td>Technical Session</td></tr>
         <tr style="background-color: #E3E9ED"><td>11:00 – 11:15 AM</td><td>—</td><td>Tea/Coffee Break</td></tr>
-        <tr style="background-color: #B6D9FF"><td>11:15 AM – 12:45 PM</td><td>Ajay Pratap (IIT Bhu)</td><td>Technical Session</td></tr>
+        <tr style="background-color: #B6D9FF"><td>11:15 – 12:45 PM</td><td>Ajay Pratap (IIT Bhu)</td><td>Technical Session</td></tr>
         <tr style="background-color: #E3E9ED"><td>12:45 – 2:00 PM</td><td>—</td><td>Lunch Break</td></tr>
         <tr style="background-color: #DE9F32"><td>2:00 – 3:30 PM</td><td>—</td><td>Arm Session</td></tr>
         <tr style="background-color: #E3E9ED"><td>3:30 – 4:00 PM</td><td>—</td><td>Tea/Coffee Break</td></tr>
@@ -344,7 +344,7 @@ sections:
         <tr style="background-color: #B8E0B9"><td>9:00 – 10:00 AM</td><td>—</td><td>Hackathon Work Session</td></tr>
         <tr style="background-color: #B8E0B9"><td>10:00 – 11:00 AM</td><td>—</td><td>Hackathon Work Session</td></tr>
         <tr style="background-color: #E3E9ED"><td>11:00 – 11:15 AM</td><td>—</td><td>Tea/Coffee Break</td></tr>
-        <tr style="background-color: #B8E0B9"><td>11:15 AM – 12:45 PM</td><td>—</td><td>Hackathon Work Session</td></tr>
+        <tr style="background-color: #B8E0B9"><td>11:15 – 12:45 PM</td><td>—</td><td>Hackathon Work Session</td></tr>
         <tr style="background-color: #E3E9ED"><td>12:45 – 2:00 PM</td><td>—</td><td>Lunch Break</td></tr>
         <tr style="background-color: #B8E0B9"><td>2:00 – 3:30 PM</td><td>—</td><td>Hackathon Demo/Presentation</td></tr>
         <tr style="background-color: #E3E9ED"><td>3:30 – 4:00 PM</td><td>—</td><td>Tea/Coffee Break</td></tr>

@@ -176,6 +176,7 @@ sections:
     content:
       title: 📅 Programs
       text: |
+    
         The program will run from **28 DECEMBER 2025 to 4 JANUARY 2026**.
     
         <br><br>

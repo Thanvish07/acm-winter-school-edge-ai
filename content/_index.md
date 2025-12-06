@@ -171,7 +171,7 @@ sections:
       columns: 1
 
   # === 5. PROGRAMS (NEW SECTION) ===
-  - block: markdown
+  - block: features
     id: programs
     content:
       title: 📅 Programs

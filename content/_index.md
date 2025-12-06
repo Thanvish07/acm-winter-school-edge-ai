@@ -9,39 +9,39 @@ design:
 
 sections:
   # === 1. HERO BLOCK: Title, Dates, Host ===
-  - block: hero
-    id: top
-    content:
-      title: ACM India Winter School on Edge AI
-      text: |
-        **28 DECEMBER 2025 to 4 JANUARY 2026**<br><br>
+  - block: hero
+    id: top
+    content:
+      title: ACM India Winter School on Edge AI
+      text: |
+        **28 DECEMBER 2025 to 4 JANUARY 2026**<br><br>
 
-        **Host:** <a href="https://cps.iisc.ac.in/">Robert Bosch Center for Cyber Physical Systems (RBCCPS)</a> & <a href="https://cds.iisc.ac.in/">Department of Computational and Data Sciences (CDS).</a> <br><br>
+        **Host:** <a href="https://cps.iisc.ac.in/">Robert Bosch Center for Cyber Physical Systems (RBCCPS)</a> & <a href="https://cds.iisc.ac.in/">Department of Computational and Data Sciences (CDS).</a> <br><br>
 
-        **Venue:** CDS building, Indian Institute of Science (IISc), Bengaluru.<br><br>
+        **Venue:** CDS building, Indian Institute of Science (IISc), Bengaluru.<br><br>
 
-        **Coordinators:** <a href="https://www.samy101.com/">Pandarasamy Arjunan</a> & 
-        <a href="https://cds.iisc.ac.in/faculty/simmhan/">Yogesh Simmhan.</a>
+        **Coordinators:** <a href="https://www.samy101.com/">Pandarasamy Arjunan</a> & 
+        <a href="https://cds.iisc.ac.in/faculty/simmhan/">Yogesh Simmhan.</a>
+        
+        <div style="margin-top: 30px; text-align: center;">
+          <img src="IISC.png" 
+               alt="ACM India Logo" 
+               style="max-height: 200px; max-width: 120%; display: inline-block;">
+        </div>
+        
+    design:
+      columns: 1
+      css_class: "light"
+      background:
+        color: "white"
+        image:
+          filename: bg-white1.svg
+          filters:
+            brightness: 0.5
+            size: cover
+            position: center
+          parallax: false
         
-        <div style="margin-top: 30px; text-align: center;">
-          <img src="IISC.png" 
-               alt="ACM India Logo" 
-               style="max-height: 200px; max-width: 120%; display: inline-block;">
-        </div>
-        
-    design:
-      columns: 1
-      css_class: "dark"
-      background:
-        color: "white"
-        image:
-          filename: bg-white1.svg
-          filters:
-            brightness: 0.5
-            size: cover
-            position: center
-          parallax: false    
-
   # === 2. ABOUT BLOCK: Description, Background, Software (WIDER & JUSTIFIED VIA CUSTOM CSS) ===
   - block: markdown
     id: about

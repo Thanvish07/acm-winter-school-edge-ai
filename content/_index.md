@@ -36,7 +36,7 @@ sections:
             position: center
           parallax: false
     
-# === Card Section ===
+# === 8. KEY METRICS BLOCK ===
   - block: stats
     id: metrics
     content:
@@ -47,14 +47,14 @@ sections:
           name: Core Topics
           description: Covered across all lectures and labs.
         - target: 10
-          name: Speakers
-          description: Expected attendance from academia and industry.
+          name: Invited Speakers
+          description: Experts from Academia and Industry.
         - target: 8
           name: Days of Intense Learning
           description: Complete duration of the Winter School.
     design:
       columns: 3
-      css_class: "bg-gray-100 dark:bg-gray-900" # Use a distinct background color
+      css_class: "bg-gray-100 dark:bg-gray-900"
       spacing:
         padding: ["6rem","0","6rem","0"]
         

@@ -1,25 +1,3 @@
-<style>
-.schedule-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 25px;
-  font-size: 14px;
-}
-.schedule-table th,
-.schedule-table td {
-  border: 1px solid #999;
-  padding: 4px 6px;
-  vertical-align: top;
-}
-.schedule-table th {
-  background: #f0f0f0;
-  font-weight: bold;
-}
-.schedule-table tr:nth-child(even) td {
-  background: #fafafa;
-}
-</style>
-
 ---
 title: 'Home'
 date: 2025-11-10 # Current date
@@ -380,6 +358,28 @@ sections:
 <tr><td>5:30 – 7:00 PM</td><td>Certificate Distribution</td><td>Closing</td></tr>
 </tbody>
 </table>
+
+design:
+  css_inline: |
+    .schedule-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 25px;
+      font-size: 14px;
+    }
+    .schedule-table th,
+    .schedule-table td {
+      border: 1px solid #999;
+      padding: 4px 6px;
+      vertical-align: top;
+    }
+    .schedule-table th {
+      background: #f0f0f0;
+      font-weight: bold;
+    }
+    .schedule-table tr:nth-child(even) td {
+      background: #fafafa;
+    }
 
     
 

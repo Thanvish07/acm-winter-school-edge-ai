@@ -55,18 +55,6 @@
     /* This makes the gradient reliable for letters like 'G' */
 }
 
-/* ---  METRIC NUMBERS --- */
-
-/* Target the h3 element where the number should be displayed */
-.metrics h3 {
-    /* Ensure text is visible in case it was hidden by theme CSS (e.g., color: transparent) */
-    color: #374151 !important; /* Forces dark gray text color */
-    
-    /* Ensure the content is not clipped or hidden */
-    visibility: visible !important;
-    opacity: 1 !important;
-}
-
 /* --- NAVBAR LOGO SIZE FIX --- */
 
 /* 4. Set the container height for the logo brand. */

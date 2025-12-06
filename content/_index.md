@@ -15,6 +15,7 @@ sections:
       # REMOVED: title: ACM India Winter School on Edge AI
       text: |
         <h1 class="gradient-title">ACM India Winter School on Edge AI</h1>
+        <br><br>
   
         **Host:** <a href="https://cps.iisc.ac.in/">RBCCPS</a> & <a href="https://cds.iisc.ac.in/">CDS</a>.<br><br>
   

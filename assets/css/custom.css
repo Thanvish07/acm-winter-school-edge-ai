@@ -1,50 +1,51 @@
 /* assets/css/custom.css */
 
-/* --- RAINBOW GRADIENT TITLE --- */
+/* --- HERO BLOCK FIXES (Title and Text Size) --- */
 
-#top .gradient-title {
-    /* 1. Define the rainbow gradient background */
-    background-image: linear-gradient(
-        90deg, 
-        #FF0000, /* Red */
-        #FF8C00, /* Dark Orange */
-        #FFFF00, /* Yellow */
-        #00FF00, /* Green */
-        #00BFFF, /* Deep Sky Blue */
-        #8A2BE2  /* Blue-Violet */
-    ); 
-    
-    /* 2. Clip the background to the shape of the text */
-    -webkit-background-clip: text;
-    background-clip: text;
-    
-    /* 3. Make the foreground text transparent so the background shows through */
-    color: transparent;
-    
-    /* Ensure the gradient is visible over the white background */
-    -webkit-text-fill-color: transparent; 
-}
-
-/* --- HERO BLOCK  (Title and Text Size) --- */
-
-/* 1. Ensure the Hero container is wide enough for the title to fit on one line. */
+/* 1. Ensure the Hero container is wide enough for the title to fit on one line. (Remains the same) */
 #top .hero-block-container .max-w-2xl {
     max-width: 100% !important; 
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
 
-/* 2. Force the Hero title (h1) to a single line. */
+/* 2. Force the Hero title (h1) to a single line. (Remains the same) */
 #top .hero-block-container h1 {
     white-space: nowrap !important;
     overflow: hidden !important;
     text-overflow: clip !important;
+    
+    /* NEW FIX: INCREASE FONT SIZE HEIGHT */
+    font-size: 5rem !important; /* Adjust the base size (h1 size) for prominence */
 }
 
-/* 3. Increase the font size of the descriptive text/dates in the Hero Block. */
+/* 3. Increase the font size of the descriptive text/dates in the Hero Block. (Remains the same) */
 #top .hero-block-container .text-lg {
     font-size: 1.5rem !important; 
     line-height: 2.25rem !important;
+}
+
+/* --- RAINBOW GRADIENT TITLE (Darker Colors) --- */
+
+#top .gradient-title {
+    /* 1. Define the DARKER rainbow gradient background */
+    background-image: linear-gradient(
+        90deg, 
+        #990000, /* Dark Red */
+        #CC6600, /* Burnt Orange */
+        #CCCC00, /* Olive Yellow */
+        #008000, /* Dark Green */
+        #006699, /* Deep Cyan */
+        #4B0082  /* Indigo */
+    ); 
+    
+    /* 2. Clip the background to the shape of the text */
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    /* 3. Make the foreground text transparent */
+    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 /* --- NAVBAR LOGO SIZE FIX --- */

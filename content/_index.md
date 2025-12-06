@@ -1,3 +1,25 @@
+<style>
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #999;
+  padding: 4px 6px;
+  vertical-align: top;
+}
+.schedule-table th {
+  background: #f0f0f0;
+  font-weight: bold;
+}
+.schedule-table tr:nth-child(even) td {
+  background: #fafafa;
+}
+</style>
+
 ---
 title: 'Home'
 date: 2025-11-10 # Current date
@@ -214,6 +236,152 @@ sections:
       css_class: "bg-gray-100 dark:bg-gray-900" 
       background:
         color: white
+
+## Program
+
+<!-- Day-1 -->
+### Day-1, 28-Dec-2024
+<table class="schedule-table">
+<thead>
+<tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
+</thead>
+<tbody>
+<tr><td>9:00 – 10:00 AM</td><td>Vijay Janappa Reddi (Harvard University)</td><td>—</td></tr>
+<tr><td>10:00 – 11:00 AM</td><td>Chetan Singh Thakur (IISc)</td><td>—</td></tr>
+<tr><td>11:15 AM – 12:45 PM</td><td>Chetan Singh Thakur (IISc)</td><td>—</td></tr>
+<tr><td>2:00 – 3:30 PM</td><td>Samy (IISc)</td><td>Tiny ML Lab</td></tr>
+<tr><td>4:00 – 5:30 PM</td><td>Samy (IISc)</td><td>Tiny ML Lab</td></tr>
+<tr><td>5:30 – 7:00 PM</td><td>Samy (IISc)</td><td>Tiny ML Lab</td></tr>
+</tbody>
+</table>
+
+<br>
+
+<!-- Day-2 -->
+### Day-2, 29-Dec-2024
+<table class="schedule-table">
+<thead>
+<tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
+</thead>
+<tbody>
+<tr><td>9:00 – 10:00 AM</td><td>Sumit Kumar Mandal (IISc)</td><td>—</td></tr>
+<tr><td>10:00 – 11:00 AM</td><td>Gayathri Ananthanarayanan (IIT Dharwad)</td><td>—</td></tr>
+<tr><td>11:15 AM – 12:45 PM</td><td>Gayathri Ananthanarayanan (IIT Dharwad)</td><td>—</td></tr>
+<tr><td>2:00 – 3:30 PM</td><td>Samy (IISc)</td><td>Embedded Computer Vision</td></tr>
+<tr><td>4:00 – 5:30 PM</td><td>Samy (IISc)</td><td>Embedded Computer Vision</td></tr>
+<tr><td>5:30 – 7:00 PM</td><td>Samy (IISc)</td><td>Embedded Computer Vision</td></tr>
+</tbody>
+</table>
+
+<br>
+
+<!-- Day-3 -->
+### Day-3, 30-Dec-2024
+<table class="schedule-table">
+<thead>
+<tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
+</thead>
+<tbody>
+<tr><td>9:00 – 10:00 AM</td><td>Yogesh (IISc)</td><td>—</td></tr>
+<tr><td>10:00 – 11:00 AM</td><td>Yogesh (IISc)</td><td>—</td></tr>
+<tr><td>11:15 AM – 12:45 PM</td><td>Prashanti (AMD)</td><td>—</td></tr>
+<tr><td>2:00 – 3:30 PM</td><td>Yogesh (IISc)</td><td>ML on Edge Accelerators</td></tr>
+<tr><td>4:00 – 5:30 PM</td><td>Yogesh (IISc)</td><td>ML on Edge Accelerators</td></tr>
+<tr><td>5:30 – 7:00 PM</td><td>Yogesh (IISc)</td><td>ML on Edge Accelerators</td></tr>
+</tbody>
+</table>
+
+<br>
+
+<!-- Day-4 -->
+### Day-4, 31-Dec-2024
+<table class="schedule-table">
+<thead>
+<tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
+</thead>
+<tbody>
+<tr><td>9:00 – 10:00 AM</td><td>Yogesh (IISc)</td><td>—</td></tr>
+<tr><td>10:00 – 11:00 AM</td><td>Yogesh (IISc)</td><td>—</td></tr>
+<tr><td>11:15 AM – 12:45 PM</td><td>Yogesh (IISc)</td><td>FL on Edge</td></tr>
+<tr><td>2:00 – 3:30 PM</td><td>Varun (New Castle)</td><td>—</td></tr>
+<tr><td>4:00 – 5:30 PM</td><td>Varun (New Castle)</td><td>—</td></tr>
+<tr><td>5:30 – 7:00 PM</td><td>Yogesh (IISc)</td><td>FL on Edge</td></tr>
+</tbody>
+</table>
+
+<br>
+
+<!-- Day-5 -->
+### Day-5, 01-Jan-2025
+<table class="schedule-table">
+<thead>
+<tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
+</thead>
+<tbody>
+<tr><td>9:00 – 10:00 AM</td><td>Samy (IISc)</td><td>—</td></tr>
+<tr><td>10:00 – 11:00 AM</td><td>Sumit Kumar Mandal (IISc)</td><td>—</td></tr>
+<tr><td>11:15 AM – 12:45 PM</td><td>Prasant Misra (IISc & TCS)</td><td>—</td></tr>
+<tr><td>2:00 – 3:30 PM</td><td>Punit (IISc)</td><td>—</td></tr>
+<tr><td>4:00 – 5:30 PM</td><td>Samy (IISc)</td><td>Gen AI at Edge</td></tr>
+<tr><td>5:30 – 7:00 PM</td><td>Samy (IISc)</td><td>Gen AI at Edge</td></tr>
+</tbody>
+</table>
+
+<br>
+
+<!-- Day-6 -->
+### Day-6, 02-Jan-2025
+<table class="schedule-table">
+<thead>
+<tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
+</thead>
+<tbody>
+<tr><td>9:00 – 10:00 AM</td><td>Sajal (Missouri)</td><td>—</td></tr>
+<tr><td>10:00 – 11:00 AM</td><td>Manik Gupta (BITS Pilani)</td><td>—</td></tr>
+<tr><td>11:15 AM – 12:45 PM</td><td>Manik Gupta (BITS Pilani)</td><td>—</td></tr>
+<tr><td>2:00 – 3:30 PM</td><td>Manik Gupta (BITS Pilani)</td><td>IoT Analytics</td></tr>
+<tr><td>4:00 – 5:30 PM</td><td>MATLAB</td><td>—</td></tr>
+<tr><td>5:30 – 7:00 PM</td><td>Reserved (Qualcomm)</td><td>—</td></tr>
+</tbody>
+</table>
+
+<br>
+
+<!-- Day-7 -->
+### Day-7, 03-Jan-2025
+<table class="schedule-table">
+<thead>
+<tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
+</thead>
+<tbody>
+<tr><td>9:00 – 10:00 AM</td><td>Archan Misra (SMU)</td><td>—</td></tr>
+<tr><td>10:00 – 11:00 AM</td><td>Ajay Pratap (IIT Bhu)</td><td>—</td></tr>
+<tr><td>11:15 AM – 12:45 PM</td><td>Ajay Pratap (IIT Bhu)</td><td>—</td></tr>
+<tr><td>2:00 – 3:30 PM</td><td>Arm</td><td>—</td></tr>
+<tr><td>4:00 – 5:30 PM</td><td>Hackathon</td><td>—</td></tr>
+<tr><td>5:30 – 7:00 PM</td><td>Hackathon</td><td>—</td></tr>
+</tbody>
+</table>
+
+<br>
+
+<!-- Day-8 -->
+### Day-8, 04-Jan-2025
+<table class="schedule-table">
+<thead>
+<tr><th>Time</th><th>Speaker</th><th>Title</th></tr>
+</thead>
+<tbody>
+<tr><td>9:00 – 10:00 AM</td><td>Hackathon</td><td>—</td></tr>
+<tr><td>10:00 – 11:00 AM</td><td>Hackathon</td><td>—</td></tr>
+<tr><td>11:15 AM – 12:45 PM</td><td>Hackathon</td><td>—</td></tr>
+<tr><td>2:00 – 3:30 PM</td><td>Hackathon</td><td>—</td></tr>
+<tr><td>4:00 – 5:30 PM</td><td>Hackathon</td><td>Demo / Presentation</td></tr>
+<tr><td>5:30 – 7:00 PM</td><td>Certificate Distribution</td><td>Closing</td></tr>
+</tbody>
+</table>
+
+    
 
 # === 6. LOGISTICS AND MAPS (NEW SECTION) ===
   - block: markdown

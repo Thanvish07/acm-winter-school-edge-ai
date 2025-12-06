@@ -241,31 +241,29 @@ sections:
         <tr><td>4:00 – 5:30 PM</td><td>Samy (IISc)</td><td>Embedded Computer Vision</td></tr>
         <tr><td>5:30 – 7:00 PM</td><td>Samy (IISc)</td><td>Embedded Computer Vision</td></tr>
         </tbody>
-        </table>
-        
+        </table>        
         <br>
-
-  design:
-    css_inline: |
-      .schedule-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-bottom: 25px;
-        font-size: 14px;
-      }
-      .schedule-table th,
-      .schedule-table td {
-        border: 1px solid #999;
-        padding: 4px 6px;
-        vertical-align: top;
-      }
-      .schedule-table th {
-        background: #f0f0f0;
-        font-weight: bold;
-      }
-      .schedule-table tr:nth-child(even) td {
-        background: #fafafa;
-      }    
+      design:
+        css_inline: |
+          .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 25px;
+            font-size: 14px;
+          }
+          .schedule-table th,
+          .schedule-table td {
+            border: 1px solid #999;
+            padding: 4px 6px;
+            vertical-align: top;
+          }
+          .schedule-table th {
+            background: #f0f0f0;
+            font-weight: bold;
+          }
+          .schedule-table tr:nth-child(even) td {
+            background: #fafafa;
+          }    
 
 # === 6. LOGISTICS AND MAPS (NEW SECTION) ===
   - block: markdown

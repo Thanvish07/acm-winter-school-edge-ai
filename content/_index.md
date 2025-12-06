@@ -52,7 +52,7 @@ sections:
       spacing:
         padding: ["6rem","0","6rem","0"]
 
-  # === 3. TOPICS BLOCK (Visually interactive with icons) ===
+# === 3. TOPICS BLOCK (Visually interactive with icons) ===
   - block: features
     id: topics
     content:
@@ -61,27 +61,27 @@ sections:
         The winter school covers foundational and advanced aspects of Edge AI.
       items:
         - name: Foundations of IoT, Accelerated Edge Computing and Edge AI
-          icon: server
+          icon: layer-group # Represents foundational layers and infrastructure
         - name: Tiny and Embedded Machine Learning
-          icon: computer-desktop
+          icon: microchip # Directly represents embedded/small silicon
         - name: Model Optimization and Acceleration for Edge AI
-          icon: arrow-up-circle
+          icon: rocket # Represents speed and acceleration
         - name: Edge AI Platforms, Frameworks, and Deployment Pipelines
-          icon: code-bracket
+          icon: cogs # Represents mechanisms, systems, and frameworks
         - name: Federated Learning and Distributed Training for Edge Devices
-          icon: users
+          icon: network-wired # Represents distributed and networked systems
         - name: Neuromorphic Computing and Brain-Inspired Architectures
-          icon: cube
+          icon: brain # Direct representation of brain-inspired computing
         - name: Generative AI and LLM at the Edge
-          icon: sparkles
+          icon: sparkles # Represents generation and creativity (kept original)
         - name: Agentic AI on the Edge
-          icon: cog
+          icon: robot # Represents intelligent, autonomous agents
         - name: Security, Privacy, and Responsible AI in Edge Systems
-          icon: lock-closed
+          icon: shield-alt # Represents protection and defense
         - name: Benchmarking, Profiling, and Performance Evaluation of Edge AI Systems
-          icon: chart-bar
+          icon: tachometer-alt # Represents performance and measurement (dashboard/gauge)
         - name: Edge AI for Drones/UAVs, IoT, Smart Cities, and Industrial Applications
-          icon: globe-alt
+          icon: city # Represents urban and global applications
     design:
       css_class: "bg-gray-100 dark:bg-gray-900"
       columns: 3

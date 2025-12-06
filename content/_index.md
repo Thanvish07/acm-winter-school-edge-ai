@@ -14,9 +14,8 @@ sections:
     content:
       title: ACM India Winter School on Edge AI
       text: |
-        **28 DECEMBER 2025 to 4 JANUARY 2026**<br><br>
-
-        **Host:** <a href="https://cps.iisc.ac.in/">Robert Bosch Center for Cyber Physical Systems (RBCCPS)</a> & <a href="https://cds.iisc.ac.in/">Department of Computational and Data Sciences (CDS).</a> <br><br>
+    
+        **Host:** <a href="https://cps.iisc.ac.in/">RBCCPS</a> & <a href="https://cds.iisc.ac.in/">CDS</a>.<br><br>
 
         **Venue:** CDS building, Indian Institute of Science (IISc), Bengaluru.<br><br>
 
@@ -360,13 +359,13 @@ sections:
           <tr><th style="width: 25%; text-align: center;">Color</th><th style="width: 75%;">Session Type</th></tr>
         </thead>
         <tbody>
+          <tr style="background-color: #E3E9ED"><td>&nbsp;</td><td>Break / Meal</td></tr>
           <tr style="background-color: #FFB1F5"><td>&nbsp;</td><td>Keynote / Plenary Talk</td></tr>
           <tr style="background-color: #B6D9FF"><td>&nbsp;</td><td>Lecture</td></tr>
           <tr style="background-color: #F8D8BF"><td>&nbsp;</td><td>Lab/Tutorial</td></tr>
           <tr style="background-color: #DE9F32"><td>&nbsp;</td><td>Industry Talk/Tutorial</td></tr>
           <tr style="background-color: #B8E0B9"><td>&nbsp;</td><td>Hackathon</td></tr>
           <tr style="background-color: #5FE62E"><td>&nbsp;</td><td>Closing</td></tr>
-          <tr style="background-color: #E3E9ED"><td>&nbsp;</td><td>Break / Meal</td></tr>
         </tbody>
         </table>
 

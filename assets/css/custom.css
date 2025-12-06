@@ -98,6 +98,35 @@
 
 /* --- PROGRAMS TABLE FIXES --- */
 
+#programs .schedule-table {
+    width: 100% !important;
+    max-width: 100% !important;
+    border-collapse: collapse !important;
+    margin-top: 15px !important;
+    margin-bottom: 30px !important;
+    font-size: 0.95em !important; /* Slightly decrease font size for compactness */
+}
+
+#programs .schedule-table th,
+#programs .schedule-table td {
+    border: 1px solid #ddd !important; /* Light border */
+    padding: 8px 10px !important;
+    vertical-align: top !important;
+    text-align: left !important;
+    /* Ensure text inside columns doesn't wrap unnecessarily */
+    word-break: break-word; 
+}
+
+#programs .schedule-table th {
+    background-color: #f7f7f7 !important; /* Light header background */
+    font-weight: bold !important;
+}
+
+/* Override zebra stripping or other theme background changes */
+#programs .schedule-table tr:nth-child(even) td {
+    background: inherit !important;
+}
+
 #programs .content .prose table.schedule-table {
     /* Set a much wider maximum width */
     max-width: 90vw !important; /* 90% of the viewport width */

@@ -23,12 +23,6 @@ sections:
         **Coordinators:** <a href="https://www.samy101.com/">Pandarasamy Arjunan</a> & 
         <a href="https://cds.iisc.ac.in/faculty/simmhan/">Yogesh Simmhan.</a>
         
-        <div style="margin-top: 30px; text-align: center;">
-          <img src="IISC.png" 
-               alt="ACM India Logo" 
-               style="max-height: 200px; max-width: 120%; display: inline-block;">
-        </div>
-        
     design:
       columns: 1
       css_class: "light" # Corrected for white background/black text

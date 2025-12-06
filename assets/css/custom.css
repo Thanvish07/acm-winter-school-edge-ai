@@ -1,10 +1,18 @@
 /* assets/css/custom.css */
 
-/* GRADIENT TITLE --- */
+/* --- RAINBOW GRADIENT TITLE --- */
 
 #top .gradient-title {
-    /* 1. Define the gradient background */
-    background-image: linear-gradient(90deg, #0077B6, #800080); 
+    /* 1. Define the rainbow gradient background */
+    background-image: linear-gradient(
+        90deg, 
+        #FF0000, /* Red */
+        #FF8C00, /* Dark Orange */
+        #FFFF00, /* Yellow */
+        #00FF00, /* Green */
+        #00BFFF, /* Deep Sky Blue */
+        #8A2BE2  /* Blue-Violet */
+    ); 
     
     /* 2. Clip the background to the shape of the text */
     -webkit-background-clip: text;
@@ -14,7 +22,7 @@
     color: transparent;
     
     /* Ensure the gradient is visible over the white background */
-    -webkit-text-fill-color: transparent; /* For older WebKit compatibility */
+    -webkit-text-fill-color: transparent; 
 }
 
 /* --- HERO BLOCK  (Title and Text Size) --- */

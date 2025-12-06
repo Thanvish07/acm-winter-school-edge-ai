@@ -156,6 +156,13 @@ sections:
           </a>
           <p><strong>Gayathri Ananthanarayanan</strong><br/>IIT Dharwad</p>
         </div>
+
+        <div style="width: 30%; min-width: 180px; margin: 40px 10px;">
+          <a href="https://www.bits-pilani.ac.in/hyderabad/manik-gupta">
+            <img src="speaker_manik.jpg" alt="Photo of Manik Gupta" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
+          </a>
+          <p><strong>Manik Gupta</strong><br/>BITS Pilani</p>
+        </div>
   
         <div style="width: 30%; min-width: 180px; margin: 40px 10px;">
           <a href="https://www.samy101.com/">
@@ -176,14 +183,7 @@ sections:
             <img src="speaker_punit.jpg" alt="Photo of Punit Rathore" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
           <p><strong>Punit Rathore</strong><br/>IISc</p>
-        </div>
-        
-        <div style="width: 30%; min-width: 180px; margin: 40px 10px;">
-          <a href="https://www.bits-pilani.ac.in/hyderabad/manik-gupta">
-            <img src="speaker_manik.jpg" alt="Photo of Manik Gupta" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
-          </a>
-          <p><strong>Manik Gupta</strong><br/>BITS Pilani</p>
-        </div>
+        </div> 
 
         <div style="width: 30%; min-width: 180px; margin: 40px 10px;">
           <a href="https://eecs.iisc.ac.in/people/chetan-singh-thakur/">

@@ -97,7 +97,7 @@ sections:
         
         <div style="width: 30%; min-width: 180px; margin: 40px 10px;"> 
           <a href="https://edge.seas.harvard.edu/people/vijay-janapa-reddi">
-            <img src="speaker_vijay.jpeg" alt="Photo of Vijay Janappa Reddi" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
+            <img src="speaker_vijay.jpg" alt="Photo of Vijay Janappa Reddi" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
           <p><strong>Vijay Janappa Reddi</strong><br/>Harvard University</p>
         </div>
@@ -132,7 +132,7 @@ sections:
   
         <div style="width: 30%; min-width: 180px; margin: 40px 10px;">
           <a href="https://sites.google.com/view/archan-misra">
-            <img src="speaker_archan.jpeg" alt="Photo of Archan Misra" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
+            <img src="speaker_archan.jpg" alt="Photo of Archan Misra" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
           <p><strong>Archan Misra</strong><br/>SMU</p>
         </div>
@@ -142,21 +142,14 @@ sections:
         ### Speakers
   
         <div style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center; max-width: 1200px; margin: 0 auto;">
-        
+
         <div style="width: 30%; min-width: 180px; margin: 40px 10px;">
-          <a href="https://eecs.iisc.ac.in/people/chetan-singh-thakur/">
-            <img src="speaker_chetan.jpg" alt="Photo of Chetan Singh Takur" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
+          <a href="https://iitbhu.ac.in/dept/cse/people/ajaycse">
+            <img src="speaker_ajay.jpg" alt="Photo of Ajay Pratap" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
-          <p><strong>Chetan Singh Takur</strong><br/>IISc</p>
+          <p><strong>Ajay Pratap</strong><br/>IIT Bhuvaneswar</p>
         </div>
-  
-        <div style="width: 30%; min-width: 180px; margin: 40px 10px;">
-          <a href="https://www.csa.iisc.ac.in/~skmandal">
-            <img src="speaker_sumit.jpg" alt="Photo of Sumit Kumar Mandal" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
-          </a>
-          <p><strong>Sumit Kumar Mandal</strong><br/>IISc</p>
-        </div>
-        
+
         <div style="width: 30%; min-width: 180px; margin: 40px 10px;"> 
           <a href="https://www.iitdh.ac.in/user-profile/gayathri-ananthanarayanan">
             <img src="speaker_gayathri.jpg" alt="Photo of Gayathri Ananthanarayanan" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
@@ -191,14 +184,21 @@ sections:
           </a>
           <p><strong>Manik Gupta</strong><br/>BITS Pilani</p>
         </div>
-        
+
         <div style="width: 30%; min-width: 180px; margin: 40px 10px;">
-          <a href="https://iitbhu.ac.in/dept/cse/people/ajaycse">
-            <img src="speaker_ajay.jpg" alt="Photo of Ajay Pratap" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
+          <a href="https://eecs.iisc.ac.in/people/chetan-singh-thakur/">
+            <img src="speaker_chetan.jpg" alt="Photo of Chetan Singh Takur" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
           </a>
-          <p><strong>Ajay Pratap</strong><br/>IIT Bhuvaneswar</p>
+          <p><strong>Chetan Singh Takur</strong><br/>IISc</p>
         </div>
-        
+  
+        <div style="width: 30%; min-width: 180px; margin: 40px 10px;">
+          <a href="https://www.csa.iisc.ac.in/~skmandal">
+            <img src="speaker_sumit.jpg" alt="Photo of Sumit Kumar Mandal" style="width: 100%; height: auto; border-radius: 50%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid #0056b3;">
+          </a>
+          <p><strong>Sumit Kumar Mandal</strong><br/>IISc</p>
+        </div>
+
         </div>
         
     design:

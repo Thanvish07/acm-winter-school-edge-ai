@@ -61,6 +61,22 @@
     margin-bottom: 10px !important;
 }
 
+/* --- PROGRAMS TABLE FIXES --- */
+
+#programs .schedule-table {
+    width: 100% !important;
+    max-width: 100% !important;
+    border-collapse: collapse !important;
+    margin-top: 15px !important;
+    margin-bottom: 30px !important;
+    font-size: 0.95em !important; /* Slightly decrease font size for compactness */
+}
+
+#programs .schedule-table th,
+#programs .schedule-table td {
+    border: 1px solid #ddd !important; /* Light border */
+    padding: 8px 10px !important;
+    vertical-align: top
 
 /* --- VENUE SECTION --- */
 

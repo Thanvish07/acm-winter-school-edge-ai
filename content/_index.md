@@ -14,11 +14,9 @@ sections:
     content:
       # REMOVED: title: ACM India Winter School on Edge AI
       text: |
-        <h1 class="gradient-title">ACM India Winter School on Edge AI</h1> # <<< NEW H1 WITH CLASS
-        
-        **28 DECEMBER 2025 to 4 JANUARY 2026**<br><br>
+        <h1 class="gradient-title">ACM India Winter School on Edge AI</h1>
   
-        **Host:** <a href="https://cps.iisc.ac.in/">Robert Bosch Center for Cyber Physical Systems (RBCCPS)</a> & <a href="https://cds.iisc.ac.in/">Department of Computational and Data Sciences (CDS).</a> <br><br>
+        **Host:** <a href="https://cps.iisc.ac.in/">RBCCPS</a> & <a href="https://cds.iisc.ac.in/">CDS</a>.<br><br>
   
         **Venue:** CDS building, Indian Institute of Science (IISc), Bengaluru.<br><br>
   

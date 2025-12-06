@@ -353,7 +353,7 @@ sections:
 
         ---
 
-        ## Color Key (Session Types)
+        ## Session Info
         
         <table class="schedule-table" style="width: 100%; max-width: 600px; margin: 30px auto 0 auto; font-size: 1em;">
         <thead>

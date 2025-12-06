@@ -35,6 +35,28 @@ sections:
             size: cover
             position: center
           parallax: false
+    
+# === Card Section ===
+  - block: stats
+    id: metrics
+    content:
+      title: Key Metrics
+      subtitle: What the Winter School delivers
+      items:
+        - target: 10
+          name: Core Topics
+          description: Covered across all lectures and labs.
+        - target: 10
+          name: Speakers
+          description: Expected attendance from academia and industry.
+        - target: 8
+          name: Days of Intense Learning
+          description: Complete duration of the Winter School.
+    design:
+      columns: 3
+      css_class: "bg-gray-100 dark:bg-gray-900" # Use a distinct background color
+      spacing:
+        padding: ["6rem","0","6rem","0"]
         
   # === 2. ABOUT BLOCK: Description, Background, Software (WIDER & JUSTIFIED VIA CUSTOM CSS) ===
   - block: markdown
